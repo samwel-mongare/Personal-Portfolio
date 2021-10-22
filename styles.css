@@ -1,7 +1,12 @@
+.header {
+  width: 375px;
+}
+
 .nav {
   display: flex;
   margin-top: 58px;
   justify-content: space-between;
+  width: 375px;
 }
 
 .myLogo {
