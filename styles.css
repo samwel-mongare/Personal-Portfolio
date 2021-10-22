@@ -33,6 +33,7 @@
   left: calc(50% - 375px / 2);
   top: 92px;
   background-image: url(images/Header\ bg.png);
+  background-repeat: no-repeat;
 }
 
 .mediaIcons {
