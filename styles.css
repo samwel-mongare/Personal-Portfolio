@@ -52,9 +52,11 @@
   top: 470px;
   text-decoration: none;
 }
-ul{
+
+ul {
   list-style-type: none;
 }
+
 .connect {
   position: static;
   width: 117px;
