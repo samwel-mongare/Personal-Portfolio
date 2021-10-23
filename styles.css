@@ -39,7 +39,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 24px 2px;
+  margin-right: 0;
   position: absolute;
   width: 375px;
   height: 604px;
@@ -81,7 +81,7 @@ ul {
   color: #7f8cff;
 }
 
-h1 {
+.aboutme {
   position: static;
   width: 327px;
   height: 150px;
@@ -117,19 +117,6 @@ p {
 
 .cards {
   display: grid;
-}
-
-.card1 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 24px 2px;
-  position: absolute;
-  width: 375px;
-  height: 604px;
-  left: calc(50% - 375px / 2);
-  top: 712px;
-  background-color: rgb(255, 255, 255);
 }
 
 .client {
@@ -190,26 +177,27 @@ p {
   color: #172b4d;
 }
 
-.card1 h1 {
-  margin-top: -20px;
-  margin-bottom: -50px;
+.tonic {  
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  margin-left: 24px;
+  margin-bottom: 0px;
 }
 
 .stories {
-  margin-top: 0;
-  margin-bottom: -30px;
+  margin-top: 22px;
+  margin-bottom: 5px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  margin-left: 24px;
 }
 
 .cards p {
@@ -230,40 +218,33 @@ p {
   margin-bottom: -20px;
 }
 
-.card2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 24px 2px;
+.myWork {
+  display: grid;
+  grid-column: auto;
+  padding: 2px 2px;
   position: absolute;
   width: 375px;
   height: 604px;
-  left: calc(50% - 375px / 2);
-  top: 1350px;
+  left: calc(50% - 375px / 2);  
+}
+.card1 {
+  position: absolute;
+  top: 712px;
+  background-color: rgb(255, 255, 255);
+}
+.card2 {
+  position: absolute;
+  top: 1300px;
 }
 
 .card3 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 24px 2px;
   position: absolute;
-  width: 375px;
-  height: 604px;
-  left: calc(50% - 375px / 2);
-  top: 1988px;
+  top: 1938px;
 }
 
 .card4 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 24px 2px;
   position: absolute;
-  width: 375px;
-  height: 604px;
-  left: calc(50% - 375px / 2);
-  top: 2626px;
+  top: 2556px;
 }
 
 .about2 ul {
@@ -302,9 +283,8 @@ button:disabled {
 }
 
 button:active {
-  background-color: #2230d2;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  background: #2230D2;
+  border-radius: 8px;
 }
 
 .button2 button {
@@ -353,47 +333,41 @@ button:active {
   color: #7a869a;
 }
 
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 24px 2px;
+.about-section {
+  display: grid;
+  grid-column: auto;
+  padding: 2px 2px;
   position: absolute;
   width: 375px;
   height: auto;
   left: calc(50% - 375px / 2);
-  top: 3294px;
   background-color: rgb(255, 255, 255);
 }
-
-.about2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 24px 2px;
+.about{
+  top: 3094px;
   position: absolute;
-  width: 375px;
-  height: 604px;
-  left: calc(50% - 375px / 2);
-  top: 3994px;
-  background-color: rgb(255, 255, 255);
+}
+.about2 {
+  position: absolute;
+  top: 3794px;
 }
 
 .abtframework {
   display: flex;
   margin-top: 8px;
   justify-content: space-between;
-  width: 375px;
+  width: 320px;
   margin-bottom: 15px;
+  margin-right: -20px;
 }
 
 .framework {
   position: static;
   width: 76px;
   height: 20px;
-  left: 12px;
+  left: 2px;
   top: 10px;
-  margin-left: 24px;
+  margin-left: -29px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -405,15 +379,11 @@ button:active {
   color: #6070ff;
 }
 
-.framework-nav {
-  margin-right: 24px;
-}
-
 .abtskill {
   display: flex;
   margin-top: 12px;
   justify-content: space-between;
-  width: 375px;
+  width: 330px;
   margin-bottom: 15px;
 }
 
@@ -423,7 +393,7 @@ button:active {
   height: 20px;
   left: 12px;
   top: 10px;
-  margin-left: 24px;
+  margin-left: -24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -443,7 +413,7 @@ button:active {
   display: flex;
   margin-top: 12px;
   justify-content: space-between;
-  width: 375px;
+  width: 330px;
   margin-bottom: 12px;
 }
 
@@ -472,4 +442,7 @@ button:active {
 .ht {
   margin-top: 12px;
   margin-bottom: 12px;
+}
+h6{
+  margin-bottom: 10px;
 }
