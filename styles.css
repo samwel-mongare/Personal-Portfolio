@@ -177,7 +177,7 @@ p {
   color: #172b4d;
 }
 
-.tonic {  
+.tonic {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -185,7 +185,7 @@ p {
   line-height: 44px;
   color: #172b4d;
   margin-left: 24px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .stories {
@@ -225,13 +225,15 @@ p {
   position: absolute;
   width: 375px;
   height: 604px;
-  left: calc(50% - 375px / 2);  
+  left: calc(50% - 375px / 2);
 }
+
 .card1 {
   position: absolute;
   top: 712px;
   background-color: rgb(255, 255, 255);
 }
+
 .card2 {
   position: absolute;
   top: 1300px;
@@ -283,7 +285,7 @@ button:disabled {
 }
 
 button:active {
-  background: #2230D2;
+  background: #2230d2;
   border-radius: 8px;
 }
 
@@ -343,10 +345,12 @@ button:active {
   left: calc(50% - 375px / 2);
   background-color: rgb(255, 255, 255);
 }
-.about{
+
+.about {
   top: 3094px;
   position: absolute;
 }
+
 .about2 {
   position: absolute;
   top: 3794px;
@@ -443,6 +447,7 @@ button:active {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-h6{
+
+h6 {
   margin-bottom: 10px;
 }
