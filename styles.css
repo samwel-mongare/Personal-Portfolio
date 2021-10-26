@@ -444,3 +444,12 @@ button:active {
 h6{
   margin-bottom: 10px;
 }
+
+.contactP{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
