@@ -453,3 +453,64 @@ h6{
   line-height: 28px;
   text-align: center;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-page-titel {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  text-align: center;
+}
+
+.full-name {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 16px;
+}
+
+.email {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 16px;
+}
+
+#comment {
+  width: 327px;
+  height: 114px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 12px;
+}
