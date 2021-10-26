@@ -1,10 +1,14 @@
 .header {
   width: 375px;
+  padding: 24px 2px;
+  position: absolute;
+  height: 604px;
+  left: calc(50% - 375px / 2);
 }
 
 .nav {
   display: flex;
-  margin-top: 58px;
+  margin-top: 8px;
   justify-content: space-between;
   width: 375px;
 }
@@ -35,7 +39,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 24px 2px;
+  margin-right: 0;
   position: absolute;
   width: 375px;
   height: 604px;
@@ -77,7 +81,7 @@ ul {
   color: #7f8cff;
 }
 
-h1 {
+.aboutme {
   position: static;
   width: 327px;
   height: 150px;
@@ -89,11 +93,11 @@ h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
-  line-height: 60px;
   display: flex;
   align-items: center;
   letter-spacing: 0.37px;
   color: #091e42;
+  line-height: 0.9;
 }
 
 p {
@@ -109,4 +113,341 @@ p {
   font-size: 20px;
   line-height: 28px;
   color: #344563;
+}
+
+.cards {
+  display: grid;
+}
+
+.client {
+  display: flex;
+  justify-content: space-evenly;
+  width: 250px;
+  margin-left: -24px;
+}
+
+.lang {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  margin-left: -15px;
+}
+
+.htm {
+  position: static;
+  width: 50px;
+  height: 24px;
+  left: 114px;
+  top: 0;
+  text-align: center;
+  background: #ebebff;
+  border-radius: 8px;
+}
+
+.cs {
+  position: static;
+  width: 45px;
+  height: 24px;
+  left: 61px;
+  top: 0;
+  background: #ebebff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.jvs {
+  position: static;
+  width: 89px;
+  height: 24px;
+  left: 114px;
+  top: 0;
+  background: #ebebff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card3 h1 {
+  margin-top: -20px;
+  margin-bottom: -50px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.tonic {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-left: 24px;
+  margin-bottom: 0;
+}
+
+.stories {
+  margin-top: 22px;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-left: 24px;
+}
+
+.cards p {
+  margin-bottom: -60px;
+  position: static;
+  width: 295px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 30px;
+}
+
+.placeholder {
+  margin-left: 24px;
+  margin-bottom: -20px;
+}
+
+.myWork {
+  display: grid;
+  grid-column: auto;
+  padding: 2px 2px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px / 2);
+}
+
+.card1 {
+  position: absolute;
+  top: 712px;
+  background-color: rgb(255, 255, 255);
+}
+
+.card2 {
+  position: absolute;
+  top: 1300px;
+}
+
+.card3 {
+  position: absolute;
+  top: 1938px;
+}
+
+.card4 {
+  position: absolute;
+  top: 2556px;
+}
+
+.about2 ul {
+  margin-left: 0;
+}
+
+button {
+  position: absolute;
+  width: 124px;
+  height: 48px;
+  left: 0;
+  margin-left: 24px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+}
+
+button:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: white;
+}
+
+button:disabled {
+  border: 1px solid #c1c7d0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+button:active {
+  background: #2230d2;
+  border-radius: 8px;
+}
+
+.button2 button {
+  width: 155px;
+}
+
+.canopy {
+  position: static;
+  width: 55px;
+  height: 16px;
+  left: 0;
+  top: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.back {
+  position: static;
+  width: 88px;
+  height: 16px;
+  left: 0;
+  top: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.yearr {
+  position: static;
+  width: 29px;
+  height: 16px;
+  left: 0;
+  top: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.about-section {
+  display: grid;
+  grid-column: auto;
+  padding: 2px 2px;
+  position: absolute;
+  width: 375px;
+  height: auto;
+  left: calc(50% - 375px / 2);
+  background-color: rgb(255, 255, 255);
+}
+
+.about {
+  top: 3094px;
+  position: absolute;
+}
+
+.about2 {
+  position: absolute;
+  top: 3794px;
+}
+
+.abtframework {
+  display: flex;
+  margin-top: 8px;
+  justify-content: space-between;
+  width: 320px;
+  margin-bottom: 15px;
+  margin-right: -20px;
+}
+
+.framework {
+  position: static;
+  width: 76px;
+  height: 20px;
+  left: 2px;
+  top: 10px;
+  margin-left: -29px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+}
+
+.abtskill {
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+  width: 330px;
+  margin-bottom: 15px;
+}
+
+.skill {
+  position: static;
+  width: 76px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  margin-left: -24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+}
+
+.skillNav {
+  margin-right: 24px;
+}
+
+.la {
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+  width: 330px;
+  margin-bottom: 12px;
+}
+
+.langguage {
+  position: static;
+  width: 76px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  margin-left: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+}
+
+.langnav {
+  margin-right: 24px;
+}
+
+.ht {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+h6 {
+  margin-bottom: 10px;
 }
