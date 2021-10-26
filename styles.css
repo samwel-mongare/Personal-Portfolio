@@ -1,16 +1,22 @@
 .header {
-  width: 375px;
-  padding: 24px 2px;
-  position: absolute;
-  height: 604px;
-  left: calc(50% - 375px / 2);
+  width: 360px;
+ 
 }
-
+.body{
+  width:100%;
+  margin-left: 0px;
+  position: fixed;
+}
+.page1{
+  border: 1px solid #d0d9d4; padding-bottom: 10px; padding-top: 10px;
+  border-bottom-left-radius: 50px;
+  width: 360px;
+}
 .nav {
   display: flex;
   margin-top: 8px;
   justify-content: space-between;
-  width: 375px;
+  width: auto;
 }
 
 .myLogo {
@@ -36,26 +42,29 @@
 }
 
 .headline {
+ border-radius: 30px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-right: 0;
-  position: absolute;
-  width: 375px;
-  height: 604px;
-  left: calc(50% - 375px / 2);
-  top: 92px;
+  width: 360px;
+  top: 2px;
   background-image: url(images/Header\ bg.png);
   background-repeat: no-repeat;
+  margin-left: 0%;
+  padding-left: 0%;
+  position: static;
+  
 }
-
+.textbox{
+  display: flex;
+  flex-direction: column;
+}
 .mediaIcons {
   display: flex;
   justify-content: space-evenly;
   width: 200px;
   height: 30px;
   margin-top: 30px;
-  position: static;
   left: 24px;
   top: 470px;
   text-decoration: none;
@@ -66,12 +75,10 @@ ul {
 }
 
 .connect {
-  position: static;
   width: 117px;
   height: 24px;
   left: 0;
   top: 0;
-  margin-top: 80px;
   margin-left: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -79,14 +86,12 @@ ul {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+
 }
 
 .aboutme {
-  position: static;
-  width: 327px;
-  height: 150px;
-  left: 0;
-  top: 0;
+  width: auto;
+  height: auto;
   margin-left: 24px;
   margin-right: 24px;
   font-family: 'Poppins', sans-serif;
@@ -113,10 +118,15 @@ p {
   font-size: 20px;
   line-height: 28px;
   color: #344563;
+  margin-bottom: 10px;
+}
+.softdev{
+  height: auto;
 }
 
 .cards {
   display: grid;
+  width: 360px;
 }
 
 .client {
@@ -134,7 +144,6 @@ p {
 }
 
 .htm {
-  position: static;
   width: 50px;
   height: 24px;
   left: 114px;
@@ -145,7 +154,6 @@ p {
 }
 
 .cs {
-  position: static;
   width: 45px;
   height: 24px;
   left: 61px;
@@ -156,7 +164,6 @@ p {
 }
 
 .jvs {
-  position: static;
   width: 89px;
   height: 24px;
   left: 114px;
@@ -177,7 +184,7 @@ p {
   color: #172b4d;
 }
 
-.tonic {
+.tonic {  
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -185,7 +192,7 @@ p {
   line-height: 44px;
   color: #172b4d;
   margin-left: 24px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .stories {
@@ -202,7 +209,6 @@ p {
 
 .cards p {
   margin-bottom: -60px;
-  position: static;
   width: 295px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -222,31 +228,31 @@ p {
   display: grid;
   grid-column: auto;
   padding: 2px 2px;
-  position: absolute;
-  width: 375px;
-  height: 604px;
-  left: calc(50% - 375px / 2);
+  width: 100%;
 }
-
+.cards{
+  display: flex;
+  flex-direction: column;
+}
 .card1 {
-  position: absolute;
-  top: 712px;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
+ border: 1px solid #d0d9d4;  border-radius: 30px; padding-bottom: 10px; padding-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
-
 .card2 {
-  position: absolute;
-  top: 1300px;
+ border: 1px solid #d0d9d4;  border-radius: 30px; padding-bottom: 10px; padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .card3 {
-  position: absolute;
-  top: 1938px;
+ border: 1px solid #d0d9d4;  border-radius: 30px; padding-bottom: 10px; padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .card4 {
-  position: absolute;
-  top: 2556px;
+ border: 1px solid #d0d9d4;  border-radius: 30px; padding-bottom: 10px; padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .about2 ul {
@@ -254,7 +260,6 @@ p {
 }
 
 button {
-  position: absolute;
   width: 124px;
   height: 48px;
   left: 0;
@@ -285,7 +290,7 @@ button:disabled {
 }
 
 button:active {
-  background: #2230d2;
+  background: #2230D2;
   border-radius: 8px;
 }
 
@@ -294,7 +299,6 @@ button:active {
 }
 
 .canopy {
-  position: static;
   width: 55px;
   height: 16px;
   left: 0;
@@ -308,7 +312,6 @@ button:active {
 }
 
 .back {
-  position: static;
   width: 88px;
   height: 16px;
   left: 0;
@@ -322,7 +325,6 @@ button:active {
 }
 
 .yearr {
-  position: static;
   width: 29px;
   height: 16px;
   left: 0;
@@ -338,22 +340,17 @@ button:active {
 .about-section {
   display: grid;
   grid-column: auto;
-  padding: 2px 2px;
-  position: absolute;
-  width: 375px;
+  width: 360px;
   height: auto;
-  left: calc(50% - 375px / 2);
-  background-color: rgb(255, 255, 255);
+ background-color: rgb(255, 255, 255);
 }
-
-.about {
-  top: 3094px;
-  position: absolute;
+.about{
+ border: 1px solid #d0d9d4;  border-radius: 30px; padding-bottom: 10px; padding-top: 10px;
+  margin-bottom: 10px;
 }
-
 .about2 {
-  position: absolute;
-  top: 3794px;
+ border: 1px solid #d0d9d4;  border-radius: 30px; padding-bottom: 10px; padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .abtframework {
@@ -366,7 +363,6 @@ button:active {
 }
 
 .framework {
-  position: static;
   width: 76px;
   height: 20px;
   left: 2px;
@@ -392,7 +388,6 @@ button:active {
 }
 
 .skill {
-  position: static;
   width: 76px;
   height: 20px;
   left: 12px;
@@ -422,7 +417,6 @@ button:active {
 }
 
 .langguage {
-  position: static;
   width: 76px;
   height: 20px;
   left: 12px;
@@ -447,7 +441,6 @@ button:active {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-
-h6 {
+h6{
   margin-bottom: 10px;
 }
