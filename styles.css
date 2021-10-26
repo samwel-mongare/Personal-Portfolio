@@ -2,11 +2,14 @@
   width: 360px;
  
 }
-.body{
+body {
   width:100%;
   margin-left: 0px;
-  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .page1{
   border: 1px solid #d0d9d4; padding-bottom: 10px; padding-top: 10px;
   border-bottom-left-radius: 50px;
@@ -229,6 +232,7 @@ p {
   grid-column: auto;
   padding: 2px 2px;
   width: 100%;
+  justify-content: center;
 }
 .cards{
   display: flex;
@@ -446,12 +450,13 @@ h6{
 }
 
 .contactP{
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
+  color: #ebebff;
 }
 
 .contact-form {
@@ -460,24 +465,30 @@ h6{
   align-items: center;
 }
 
+.contact-page {
+  background-image: url(./images/Contact-me.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .contact-page-titel {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  color: #172b4d;
+  color: #fff;
   text-align: center;
 }
 
 .full-name {
   width: 327px;
   height: 48px;
-  border-radius: 4px;
+  border-radius: 8px;
   background-color: #fff;
   border: 1px solid #d0d9d4;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -488,11 +499,11 @@ h6{
 .email {
   width: 327px;
   height: 48px;
-  border-radius: 4px;
+  border-radius: 8px;
   background-color: #fff;
   border: 1px solid #d0d9d4;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -503,14 +514,25 @@ h6{
 #comment {
   width: 327px;
   height: 114px;
-  border-radius: 4px;
+  border-radius: 8px;
   background: #fff;
   border: 1px solid #60c095;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
   padding: 12px;
+}
+
+.get-it-touch {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070ff;
+  align-self: flex-start;
+  cursor: pointer;
 }
