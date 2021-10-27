@@ -1,16 +1,28 @@
 .header {
-  width: 375px;
-  padding: 24px 2px;
-  position: absolute;
-  height: 604px;
-  left: calc(50% - 375px / 2);
+  width: 360px;
+}
+
+body {
+  width: 100%;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page1 {
+  border: 1px solid #d0d9d4;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom-left-radius: 50px;
+  width: 360px;
 }
 
 .nav {
   display: flex;
   margin-top: 8px;
   justify-content: space-between;
-  width: 375px;
+  width: auto;
 }
 
 .myLogo {
@@ -36,17 +48,22 @@
 }
 
 .headline {
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-right: 0;
-  position: absolute;
-  width: 375px;
-  height: 604px;
-  left: calc(50% - 375px / 2);
-  top: 92px;
+  width: 360px;
+  top: 2px;
   background-image: url(images/Header\ bg.png);
   background-repeat: no-repeat;
+  margin-left: 0%;
+  padding-left: 0%;
+  position: static;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
 }
 
 .mediaIcons {
@@ -55,7 +72,6 @@
   width: 200px;
   height: 30px;
   margin-top: 30px;
-  position: static;
   left: 24px;
   top: 470px;
   text-decoration: none;
@@ -66,12 +82,10 @@ ul {
 }
 
 .connect {
-  position: static;
   width: 117px;
   height: 24px;
   left: 0;
   top: 0;
-  margin-top: 80px;
   margin-left: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -82,11 +96,8 @@ ul {
 }
 
 .aboutme {
-  position: static;
-  width: 327px;
-  height: 150px;
-  left: 0;
-  top: 0;
+  width: auto;
+  height: auto;
   margin-left: 24px;
   margin-right: 24px;
   font-family: 'Poppins', sans-serif;
@@ -113,10 +124,17 @@ p {
   font-size: 20px;
   line-height: 28px;
   color: #344563;
+  margin-bottom: 10px;
+}
+
+.softdev {
+  height: auto;
 }
 
 .cards {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
 }
 
 .client {
@@ -124,6 +142,10 @@ p {
   justify-content: space-evenly;
   width: 250px;
   margin-left: -24px;
+}
+
+.client img {
+  margin-bottom: 5px;
 }
 
 .lang {
@@ -134,7 +156,6 @@ p {
 }
 
 .htm {
-  position: static;
   width: 50px;
   height: 24px;
   left: 114px;
@@ -145,7 +166,6 @@ p {
 }
 
 .cs {
-  position: static;
   width: 45px;
   height: 24px;
   left: 61px;
@@ -156,7 +176,6 @@ p {
 }
 
 .jvs {
-  position: static;
   width: 89px;
   height: 24px;
   left: 114px;
@@ -202,7 +221,6 @@ p {
 
 .cards p {
   margin-bottom: -60px;
-  position: static;
   width: 295px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -222,31 +240,42 @@ p {
   display: grid;
   grid-column: auto;
   padding: 2px 2px;
-  position: absolute;
-  width: 375px;
-  height: 604px;
-  left: calc(50% - 375px / 2);
+  width: 100%;
+  justify-content: center;
 }
 
 .card1 {
-  position: absolute;
-  top: 712px;
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .card2 {
-  position: absolute;
-  top: 1300px;
+  border: 1px solid #d0d9d4;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .card3 {
-  position: absolute;
-  top: 1938px;
+  border: 1px solid #d0d9d4;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .card4 {
-  position: absolute;
-  top: 2556px;
+  border: 1px solid #d0d9d4;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .about2 ul {
@@ -254,7 +283,6 @@ p {
 }
 
 button {
-  position: absolute;
   width: 124px;
   height: 48px;
   left: 0;
@@ -294,7 +322,6 @@ button:active {
 }
 
 .canopy {
-  position: static;
   width: 55px;
   height: 16px;
   left: 0;
@@ -308,7 +335,6 @@ button:active {
 }
 
 .back {
-  position: static;
   width: 88px;
   height: 16px;
   left: 0;
@@ -322,7 +348,6 @@ button:active {
 }
 
 .yearr {
-  position: static;
   width: 29px;
   height: 16px;
   left: 0;
@@ -338,22 +363,25 @@ button:active {
 .about-section {
   display: grid;
   grid-column: auto;
-  padding: 2px 2px;
-  position: absolute;
-  width: 375px;
+  width: 360px;
   height: auto;
-  left: calc(50% - 375px / 2);
   background-color: rgb(255, 255, 255);
 }
 
 .about {
-  top: 3094px;
-  position: absolute;
+  border: 1px solid #d0d9d4;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .about2 {
-  position: absolute;
-  top: 3794px;
+  border: 1px solid #d0d9d4;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .abtframework {
@@ -366,7 +394,6 @@ button:active {
 }
 
 .framework {
-  position: static;
   width: 76px;
   height: 20px;
   left: 2px;
@@ -392,7 +419,6 @@ button:active {
 }
 
 .skill {
-  position: static;
   width: 76px;
   height: 20px;
   left: 12px;
@@ -422,7 +448,6 @@ button:active {
 }
 
 .langguage {
-  position: static;
   width: 76px;
   height: 20px;
   left: 12px;
@@ -450,4 +475,100 @@ button:active {
 
 h6 {
   margin-bottom: 10px;
+}
+
+.contactP {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-page {
+  background-image: url(images/Contact-me.png);
+  background-repeat: no-repeat;
+}
+
+.contact-sec {
+  background-image: url(images/contactsh.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  width: 375px;
+  height: 595px;
+}
+
+.contact-page-titel {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  text-align: center;
+}
+
+.full-name {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 16px;
+}
+
+.email {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 16px;
+}
+
+#comment {
+  width: 327px;
+  height: 114px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 12px;
+}
+
+.get-it-touch {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070ff;
+  align-self: flex-start;
+  cursor: pointer;
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
 </head>
 <body>
+    <div class="page1">
     <header class="header">
         <nav class="nav">
             <div class="myLogo">
@@ -23,11 +24,12 @@
         <div class="textbx">
                <div>
                   <h1 class="aboutme">
-                    I’m Sam <br> Glad to see you!
+                    I’m Sam <br> Glad to see <br> you!
                   </h1>
-                  <p>
+                  <p class="softdev">
                     I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
                   </p>
+                  
                 </div>
                 <h2 class="connect">
                     LET'S CONNECT
@@ -61,6 +63,7 @@
                 </ul>         
             </div>           
         </section>
+    </div>
         <section class="myWork">
             <div class="cards">
                 <div class="card1">
@@ -84,7 +87,7 @@
                     </ul>
                   </div>
                   <div class="buttn">
-                      <button type="button" >See Project</button>
+                      <button type="button">See Project</button>
                   </div>
                 </div>
                 <div class="card2">
@@ -108,7 +111,7 @@
                       </ul>
                     </div>
                     <div class="buttn">
-                        <button type="button" >See Project</button>
+                        <button type="button">See Project</button>
                     </div>
                   </div>
                   <div class="card3">
@@ -132,7 +135,7 @@
                       </ul>
                     </div>
                     <div class="buttn">
-                        <button type="button" >See Project</button>
+                        <button type="button">See Project</button>
                     </div>
                   </div>
                   <div class="card4">
@@ -156,7 +159,7 @@
                       </ul>
                     </div>
                     <div class="buttn">
-                        <button type="button" >See Project</button>
+                        <button type="button">See Project</button>
                     </div>
                   </div>
             </div>
@@ -165,7 +168,7 @@
             <div class="about">
                 <div>
                     <h6 class="aboutme">About <br>Myself</h6>
-                    <p>
+                    <p class="softdev">
                         Hello I’m a software developer! I can help you build a product , 
                         feature or website Look through some of my work and experience! 
                         If you like what you see and have a project you need coded, don’t hestiate to contact me.
@@ -215,8 +218,28 @@
                     <li class="framework"><a href="#">Skills</a></li>
                     <li class="framework-nav"><a href="#"><img src="images/drp.png" alt="Side navigation bar icon"></a>                  
                 </ul>                         
-              </div> 
-               
+              </div>                
+        </section>
+        <section class="contact-page">
+            <div class="contact-sec">    
+            <div>
+                <h6 class="contact-page-titel">Contact me</h6>
+                <p class="contactP">
+                    If you have an application you are interested in developing,
+                     a feature that you need built or a project that needs coding. 
+                     I’d love to help with it 
+                </p>
+              </div>
+            <form action="https://formspree.io/f/mbjqebza" class="contact-form" method="post">
+                <label for="fullname"></label>
+                <input maxlength="30" name="fullname" class="full-name" id="fullname" type="text" placeholder="Full name" required><br>
+                <label for="email"></label>
+                <input type="email" name="email" class="email" id="email" placeholder="Email" required><br>
+                <label for="comment"></label>
+                <textarea maxlength="500" name="comment" id="comment" cols="30" rows="10" placeholder="Write your message here" required></textarea><br>
+                <button type="submit" class="get-it-touch" value="Get it touch">Get it touch</button>
+            </form>
+            </div>
         </section>
 </body>
 </html>
