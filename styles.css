@@ -144,6 +144,10 @@ p {
   margin-left: -24px;
 }
 
+.client img {
+  margin-bottom: 5px;
+}
+
 .lang {
   display: flex;
   justify-content: space-evenly;
@@ -490,9 +494,17 @@ h6 {
 }
 
 .contact-page {
-  background-image: url(./images/Contact-me.png);
+  background-image: url(images/Contact-me.png);
   background-repeat: no-repeat;
-  background-size: cover;
+}
+
+.contact-sec {
+  background-image: url(images/contactsh.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  width: 375px;
+  height: 595px;
 }
 
 .contact-page-titel {
