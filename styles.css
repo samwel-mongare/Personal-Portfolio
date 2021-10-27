@@ -132,7 +132,8 @@ p {
 }
 
 .cards {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 360px;
 }
 
@@ -237,11 +238,6 @@ p {
   padding: 2px 2px;
   width: 100%;
   justify-content: center;
-}
-
-.cards {
-  display: flex;
-  flex-direction: column;
 }
 
 .card1 {
