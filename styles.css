@@ -1,20 +1,23 @@
 .header {
   width: 360px;
- 
 }
+
 body {
-  width:100%;
-  margin-left: 0px;
+  width: 100%;
+  margin-left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.page1{
-  border: 1px solid #d0d9d4; padding-bottom: 10px; padding-top: 10px;
+.page1 {
+  border: 1px solid #d0d9d4;
+  padding-bottom: 10px;
+  padding-top: 10px;
   border-bottom-left-radius: 50px;
   width: 360px;
 }
+
 .nav {
   display: flex;
   margin-top: 8px;
@@ -45,7 +48,7 @@ body {
 }
 
 .headline {
- border-radius: 30px;
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -56,12 +59,13 @@ body {
   margin-left: 0%;
   padding-left: 0%;
   position: static;
-  
 }
-.textbox{
+
+.textbox {
   display: flex;
   flex-direction: column;
 }
+
 .mediaIcons {
   display: flex;
   justify-content: space-evenly;
@@ -89,7 +93,6 @@ ul {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-
 }
 
 .aboutme {
@@ -123,7 +126,8 @@ p {
   color: #344563;
   margin-bottom: 10px;
 }
-.softdev{
+
+.softdev {
   height: auto;
 }
 
@@ -187,7 +191,7 @@ p {
   color: #172b4d;
 }
 
-.tonic {  
+.tonic {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -195,7 +199,7 @@ p {
   line-height: 44px;
   color: #172b4d;
   margin-left: 24px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .stories {
@@ -234,28 +238,43 @@ p {
   width: 100%;
   justify-content: center;
 }
-.cards{
+
+.cards {
   display: flex;
   flex-direction: column;
 }
+
 .card1 {
-  background-color: #ffffff;
- border: 1px solid #d0d9d4;  border-radius: 30px; padding-bottom: 10px; padding-top: 10px;
+  background-color: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 .card2 {
- border: 1px solid #d0d9d4;  border-radius: 30px; padding-bottom: 10px; padding-top: 10px;
+  border: 1px solid #d0d9d4;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   margin-bottom: 10px;
 }
 
 .card3 {
- border: 1px solid #d0d9d4;  border-radius: 30px; padding-bottom: 10px; padding-top: 10px;
+  border: 1px solid #d0d9d4;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   margin-bottom: 10px;
 }
 
 .card4 {
- border: 1px solid #d0d9d4;  border-radius: 30px; padding-bottom: 10px; padding-top: 10px;
+  border: 1px solid #d0d9d4;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -294,7 +313,7 @@ button:disabled {
 }
 
 button:active {
-  background: #2230D2;
+  background: #2230d2;
   border-radius: 8px;
 }
 
@@ -346,14 +365,22 @@ button:active {
   grid-column: auto;
   width: 360px;
   height: auto;
- background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
-.about{
- border: 1px solid #d0d9d4;  border-radius: 30px; padding-bottom: 10px; padding-top: 10px;
+
+.about {
+  border: 1px solid #d0d9d4;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   margin-bottom: 10px;
 }
+
 .about2 {
- border: 1px solid #d0d9d4;  border-radius: 30px; padding-bottom: 10px; padding-top: 10px;
+  border: 1px solid #d0d9d4;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -445,11 +472,12 @@ button:active {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-h6{
+
+h6 {
   margin-bottom: 10px;
 }
 
-.contactP{
+.contactP {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
