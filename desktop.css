@@ -134,9 +134,11 @@
     transform: scale(1.04);
     overflow: hidden;
   }
-  .mywork-section1{
+
+  .mywork-section1 {
     display: none;
   }
+
   .mywork-section2 {
     align-content: center;
     display: grid;
@@ -187,10 +189,6 @@
     font-weight: 600;
     font-size: 0.8rem;
     line-height: 1rem;
-  }
-
-  .cli{
-    display: none;
   }
 
   .canopy {
