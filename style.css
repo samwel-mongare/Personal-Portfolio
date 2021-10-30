@@ -154,7 +154,11 @@
     border-radius: 0.8rem;
   }
 
-  .mywork-section {
+  .mywork-section2{
+    display: none;
+  }
+
+  .mywork-section1 {
     align-content: center;
     display: grid;
   }
@@ -191,15 +195,17 @@
   }
 
   .canopy {
-    color: #344563;
+    width: 55px;
+    height: 16px;
+    color: #6B778C;
   }
 
   .dat {
-    color: #7a869a;
+    color: #6B778C;
   }
 
   .back {
-    color: #7a869a;
+    color: #6B778C;
   }
 
   .langgy li {

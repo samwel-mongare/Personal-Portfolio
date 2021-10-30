@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     background: #fff;
     position: fixed;
     width: 100%;
@@ -35,7 +35,6 @@
   .desc-social li {
     display: inline-flex;
     padding-right: 25px;
-    color: #505f79;
   }
 
   .logo {
@@ -48,7 +47,7 @@
     width: 6rem;
     height: 1.3rem;
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
   }
 
   .hamburger {
@@ -94,6 +93,7 @@
     align-items: center;
     margin-right: 8rem;
     display: flex;
+    margin-top: 2rem;
   }
 
   .nav-list li {
@@ -134,8 +134,10 @@
     transform: scale(1.04);
     overflow: hidden;
   }
-
-  .mywork-section {
+  .mywork-section1{
+    display: none;
+  }
+  .mywork-section2 {
     align-content: center;
     display: grid;
   }
@@ -185,6 +187,10 @@
     font-weight: 600;
     font-size: 0.8rem;
     line-height: 1rem;
+  }
+
+  .cli{
+    display: none;
   }
 
   .canopy {
