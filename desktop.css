@@ -89,6 +89,10 @@
     width: 67.2%;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .nav-list {
     align-items: center;
     margin-right: 8rem;
@@ -106,7 +110,7 @@
     font-weight: 500;
     font-size: 0.99rem;
     line-height: 1.25rem;
-   }
+  }
 
   ul {
     list-style: none;
@@ -232,7 +236,7 @@
     font-size: 0.9rem;
     line-height: 1rem;
     padding-top: 0.3rem;
-    color: #6070FF;
+    color: #6070ff;
   }
 
   .html {
@@ -443,9 +447,5 @@
     cursor: pointer;
     align-self: center;
     margin-bottom: 1rem;
-  }
-
-  a {
-    text-decoration: none;
   }
 }
