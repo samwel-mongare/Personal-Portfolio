@@ -2,9 +2,15 @@
 
 # Personal Portfolio project (mobile version)
 
-> This project involves creating a basic mobile version portfolio skeleton which will be used in the development of a complete personal portfolio accessible both through phone and desktop
+> This project involves creating a basic mobile version portfolio skeleton which will be used in the development of a complete personal portfolio accessible both through phone and desktop.
+
+## Desktop Version screenshot
 
 ![screenshot](./app_screenshot.png)
+
+## Desktop Version screenshot
+
+![screenshot](./app_screenshot2.png)
 
 Additional description about the project and its features.
 
@@ -13,6 +19,9 @@ Additional description about the project and its features.
 - HTML
 - CSS
 
+## Live Demo
+
+[Live Demo Link](https://livedemo.com)
 
 
 To get a local copy up and running follow these simple example steps.
