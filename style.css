@@ -241,14 +241,23 @@
 
   .html {
     width: 3.3rem;
+    padding-top: 0.3rem;
+    color: #6070FF;
+    text-align: center;
   }
 
   .css {
     width: 2.8rem;
+    color: #6070FF;
+    padding-top: 0.3rem;
+    text-align: center;
   }
 
   .java {
     width: 5.6rem;
+    color: #6070FF;
+    padding-top: 0.3rem;
+    text-align: center;
   }
 
   .buttn {

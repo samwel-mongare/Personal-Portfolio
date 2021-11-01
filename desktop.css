@@ -101,6 +101,13 @@
     font-size: 1rem;
   }
 
+  .nav-list a {
+    color: #344563;
+    font-weight: 500;
+    font-size: 0.99rem;
+    line-height: 1.25rem;
+   }
+
   ul {
     list-style: none;
   }
@@ -224,18 +231,23 @@
     font-weight: 500;
     font-size: 0.9rem;
     line-height: 1rem;
+    padding-top: 0.3rem;
+    color: #6070FF;
   }
 
   .html {
     width: 3.3rem;
+    text-align: center;
   }
 
   .css {
     width: 2.8rem;
+    text-align: center;
   }
 
   .java {
     width: 5.6rem;
+    text-align: center;
   }
 
   .buttn {
