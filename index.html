@@ -4,242 +4,357 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sam's Personal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <title>Sam's Portfolio</title>
+    <script src="https://kit.fontawesome.com/1e6c06b0c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css">
+    
 </head>
 <body>
-    <div class="page1">
-    <header class="header">
-        <nav class="nav">
-            <div class="myLogo">
-               <a href="#">My Logo</a> 
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <a href="#">My Logo</a>
             </div>
-            <nav class="sideNav">
-                <img src="images/Union.png" alt="Side navigation bar icon">
+            <nav class="nav">
+                <ul class="nav-list">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
             </nav>
-        </nav>               
-    </header>
-    <section class="headline">
-        <div class="textbx">
-               <div>
-                  <h1 class="aboutme">
-                    I’m Sam <br> Glad to see <br> you!
-                  </h1>
-                  <p class="softdev">
-                    I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-                  </p>
-                  
-                </div>
-                <h2 class="connect">
-                    LET'S CONNECT
-                </h2>
-                <ul class="mediaIcons">
-                    <li class="twitter">
-                        <a href="#">
-                            <img src="images/twitter.png" alt="twitter icon">
-                         </a>
-                        </li>
-                    <li class="linkedIn">
-                        <a href="#">
-                            <img src="images/Linkedin.png" alt="LinkedIn icon">                        
-                        </a>
-                    </li>
-                    <li class="medium">
-                        <a href="#">
-                            <img src="images/medium.png" alt="Medium Icon">
-                        </a>
-                    </li>
-                    <li class="github">
-                        <a href="#">
-                           <img src="images/github.png" alt="Github Icon">
-                        </a>
-                    </li>
-                    <li class="angellist">
-                        <a href="#">
-                           <img src="images/angellist.png" alt="Angellist icon">
-                        </a>
-                    </li>
-                </ul>         
-            </div>           
+            <nav class="hamburger">
+                <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            </nav>
+        </header>
+        <section class="headline-section">
+            <h1>I am Sam <br> Glad to see you!</h1>
+            <p>
+                I’m a software developer! I can help you build a product , 
+                feature or website Look through some of my work and 
+                experience! If you like what you see and have a project y
+                ou need coded, don’t hestiate to contact me.
+            </p>
+        <div class="connect texty">
+            <h2>Lets Connect</h2>
+            <ul class="desc-social">
+            <li><a href="#"><img src="images/twitter.jpg" class="twitter" alt="twitter"></a></li>
+            <li><a href="#"><img src="images/Linkedin.jpg" class="linkedin" alt="linkedIn"></a></li>
+            <li><a href="#"><img src="images/medium.jpg" class="medium" alt="medium"></a></li>
+            <li><a href="#"><img src="images/github.jpg" class="github" alt="github"></a></li>
+            <li><a href="#"><img src="images/angellist.jpg" class="angellist" alt="angellist"></a></li>
+            </ul>
+        </div>
         </section>
     </div>
-        <section class="myWork">
-            <div class="cards">
-                <div class="card1">
-                  <a href="#"><img src="images/card1.png" alt="placeholder" class="placeholder"></a>
-                  <div class="cardtext">
-                      <h3 class="tonic">Tonic</h3>
-                      <ul class="client">
-                          <li class="canopy">CANOPY</li>
-                          <li><img src="images/Counter.png" alt="counter"></li>
-                          <li class="back">Back End Dev</li>
-                          <li><img src="images/Counter.png" alt="counter"></li>
-                          <li class="yearr">2015</li>
-                      </ul>
-                      <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                  </div>
-                  <div class="langy">
-                    <ul class="lang">
-                        <li class="htm">html</li>
-                        <li class="cs">css</li>
-                        <li class="jvs">javascript</li>
-                    </ul>
-                  </div>
-                  <div class="buttn">
-                      <button type="button">See Project</button>
-                  </div>
-                </div>
-                <div class="card2">
-                    <a href="#"><img src="images/card2.png" alt="placeholder" class="placeholder"></a>
-                    <div class="cardtext">
-                        <h4 class="stories">Multi-Post <br> Stories</h4>
-                        <ul class="client">
-                            <li class="canopy">CANOPY</li>
-                            <li><img src="images/Counter.png" alt="counter"></li>
-                            <li class="back">Back End Dev</li>
-                            <li><img src="images/Counter.png" alt="counter"></li>
-                            <li class="yearr">2015</li>
-                        </ul>
-                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    </div>
-                    <div class="langy">
-                      <ul class="lang">
-                          <li class="htm">html</li>
-                          <li class="cs">css</li>
-                          <li class="jvs">javascript</li>
-                      </ul>
-                    </div>
-                    <div class="buttn">
-                        <button type="button">See Project</button>
-                    </div>
-                  </div>
-                  <div class="card3">
-                    <a href="#"><img src="images/card3.png" alt="placeholder" class="placeholder"></a>
-                    <div class="cardtext">
-                        <h5 class="tonic">Tonic</h5>
-                        <ul class="client">
-                            <li class="canopy">CANOPY</li>
-                            <li><img src="images/Counter.png" alt="counter"></li>
-                            <li class="back">Back End Dev</li>
-                            <li><img src="images/Counter.png" alt="counter"></li>
-                            <li class="yearr">2015</li>
-                        </ul>
-                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    </div>
-                    <div class="langy">
-                      <ul class="lang">
-                          <li class="htm">html</li>
-                          <li class="cs">css</li>
-                          <li class="jvs">javascript</li>
-                      </ul>
-                    </div>
-                    <div class="buttn">
-                        <button type="button">See Project</button>
-                    </div>
-                  </div>
-                  <div class="card4">
-                    <a href="#"><img src="images/card4.png" alt="placeholder" class="placeholder"></a>
-                    <div class="cardtext">
-                        <h4 class="stories">Multi-Post <br> Stories</h4>
-                        <ul class="client">
-                            <li class="canopy">CANOPY</li>
-                            <li><img src="images/Counter.png" alt="counter"></li>
-                            <li class="back">Back End Dev</li>
-                            <li><img src="images/Counter.png" alt="counter"></li>
-                            <li class="yearr">2015</li>
-                        </ul>
-                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    </div>
-                    <div class="langy">
-                      <ul class="lang">
-                          <li class="htm">html</li>
-                          <li class="cs">css</li>
-                          <li class="jvs">javascript</li>
-                      </ul>
-                    </div>
-                    <div class="buttn">
-                        <button type="button">See Project</button>
-                    </div>
-                  </div>
+
+    <section class="mywork-section1">
+        <div class="mydet">
+        <div class="card1 cards">
+        <div class="placeholder">
+            <a href="#"><img src="images/card1.jpg" class="placeholder mobi" alt="placeholder"></a>
+        </div>
+        <div class="descrpt">
+            <h3>Tonic</h3>
+            <ul class="client">
+                <li class="canopy cli"><a href="#">CANOPY</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt=""></li>
+                <li class="back cli"><a href="#">Back End Dev</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt=""></li>
+                <li class="dat cli"><a href="#">2015</a></li>   
+             </ul>
+            <p>A daily selection
+                 of privately personalized reads; no accounts or sign-ups required.</p>
+             <ul class="langgy">
+                <li class="html lan"><a href="#">Html</a></li>
+                <li class="css lan"><a href="#">CSS</a></li>
+                <li class="java lan"><a href="#">Javascript</a></li>
+             </ul>  
+        <div class="button">
+            <button class="buttn" type="button">See Project</button>
+        </div>
+        </div>
+       </div>
+    </div>
+
+    <div class="mydet">
+        <div class="card2 cards">
+        <div class="placeholder">
+            <a href="#"><img src="images/card2.jpg" class="placeholder mobi" alt="placeholder"></a>
+        </div>
+        <div class="descrpt">
+            <h3>Multi-Post Stories</h3>
+            <ul class="client">
+                <li class="canopy cli"><a href="#">CANOPY</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="counter"></li>
+                <li class="back cli"><a href="#">Back End Dev</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="counter"></li>
+                <li class="dat cli"><a href="#">2015</a></li>   
+             </ul>
+            <p>A daily selection
+                 of privately personalized reads; no accounts or sign-ups required.</p>
+             <ul class="langgy">
+                <li class="html lan"><a href="#">Html</a></li>
+                <li class="css lan"><a href="#">CSS</a></li>
+                <li class="java lan"><a href="#">Javascript</a></li>
+             </ul>    
+        <div class="button">
+            <button class="buttn" type="button">See Project</button>
+        </div>
+        </div>
+       </div>
+       </div>
+
+       <div class="mydet">
+        <div class="card3 cards">
+        <div class="placeholder">
+            <a href="#"><img src="images/card3.jpg" class="placeholder mobi" alt="placeholder"></a>
+        </div>
+        <div class="descrpt">
+            <h3>Tonic</h3>
+            <ul class="client">
+                <li class="canopy cli"><a href="#">CANOPY</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="counter"></li>
+                <li class="back cli"><a href="#">Back End Dev</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="counter"></li>
+                <li class="dat cli"><a href="#">2015</a></li>   
+             </ul>
+            <p>A daily selection
+                 of privately personalized reads; no accounts or sign-ups required.</p>
+             <ul class="langgy">
+                <li class="html lan"><a href="#">Html</a></li>
+                <li class="css lan"><a href="#">CSS</a></li>
+                <li class="java lan"><a href="#">Javascript</a></li>
+             </ul>  
+        <div class="button">
+            <button class="buttn" type="button">See Project</button>
+        </div>
+        </div>
+       </div>
+       </div>
+
+       <div class="mydet">
+        <div class="card4 cards">
+        <div class="placeholder">
+            <a href="#"><img src="images/card4.jpg" class="placeholder mobi" alt="placeholder"></a>
+        </div>
+        <div class="descrpt">
+            <h3>Multi-Post Stories</h3>
+            <ul class="client">
+                <li class="canopy cli"><a href="#">CANOPY</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="counter"></li>
+                <li class="back cli"><a href="#">Back End Dev</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="content"></li>
+                <li class="dat cli"><a href="#">2015</a></li>   
+             </ul>
+            <p>A daily selection
+                 of privately personalized reads; no accounts or sign-ups required.</p>
+             <ul class="langgy">
+                <li class="html lan"><a href="#">Html</a></li>
+                <li class="css lan"><a href="#">CSS</a></li>
+                <li class="java lan"><a href="#">Javascript</a></li>
+             </ul>  
+        <div class="button">
+            <button class="buttn" type="button">See Project</button>
+        </div>
+        </div>
+       </div>
+       </div>
+    </section>
+    <section class="mywork-section2">
+        <div class="mydet">
+        <div class="card1 cards">
+        <div class="placeholder">
+            <a href="#"><img src="images/Snapshoot1.png" class="placeholder mobi" alt="placeholder"></a>
+        </div>
+        <div class="descrpt">
+            <h3>Tonic</h3>
+            <ul class="client">
+                <li class="canopy cli"><a href="#">CANOPY</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="counter"></li>
+                <li class="back cli"><a href="#">Back End Dev</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="counter"></li>
+                <li class="dat cli"><a href="#">2015</a></li>   
+             </ul>
+            <p>A daily selection
+                 of privately personalized reads; no accounts or sign-ups required.</p>
+             <ul class="langgy">
+                <li class="html lan"><a href="#">Html</a></li>
+                <li class="css lan"><a href="#">CSS</a></li>
+                <li class="java lan"><a href="#">Javascript</a></li>
+             </ul>  
+        <div class="button">
+            <button class="buttn" type="button">See Project</button>
+        </div>
+        </div>
+       </div>
+    </div>
+
+    <div class="mydet">
+        <div class="card2 cards">
+        <div class="placeholder">
+            <a href="#"><img src="images/Snapshootsec2.jpg" class="placeholder mobi" alt="placeholder"></a>
+        </div>
+        <div class="descrpt">
+            <h3>Multi-Post Stories</h3>
+            <ul class="client">
+                <li class="canopy cli"><a href="#">Facebook</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="content"></li>
+                <li class="back cli"><a href="#">Full stack Dev</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="counter"></li>
+                <li class="dat cli"><a href="#">2015</a></li>   
+             </ul>
+            <p>Experimental content creation feature that allows users to add
+                 to an existing story over the course of a day without spamming their friends.</p>
+             <ul class="langgy">
+                <li class="html lan"><a href="#">Html</a></li>
+                <li class="rubi lan"><a href="#">Rubi on rails</a></li>
+                <li class="css lan"><a href="#">CSS</a></li>
+                <li class="java lan"><a href="#">Javascript</a></li>
+             </ul>  
+        <div class="button">
+            <button class="buttn" type="button">See Project</button>
+        </div>
+        </div>
+       </div>
+       </div>
+
+       <div class="mydet">
+        <div class="card3 cards">
+        <div class="placeholder">
+            <a href="#"><img src="images/Snapshoot3.png" class="placeholder mobi" alt="placeholder"></a>
+        </div>
+        <div class="descrpt">
+            <h3>Facebook 360</h3>
+            <ul class="client">
+                <li class="canopy cli"><a href="#">FACEBOOK</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="content"></li>
+                <li class="back cli"><a href="#">Full Stack Dev</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="counter"></li>
+                <li class="dat cli"><a href="#">2015</a></li>   
+             </ul>
+            <p>Exploring the future of media in Facebook's first Virtual Reality app;
+                 a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+             <ul class="langgy">
+                <li class="html lan"><a href="#">Html</a></li>
+                <li class="rubi lan"><a href="#">Rubi on rails</a></li>
+                <li class="css lan"><a href="#">CSS</a></li>
+                <li class="java lan"><a href="#">Javascript</a></li>
+             </ul>  
+        <div class="button">
+            <button class="buttn" type="button">See Project</button>
+        </div>
+        </div>
+       </div>
+       </div>
+
+       <div class="mydet">
+        <div class="card4 cards">
+        <div class="placeholder">
+            <a href="#"><img src="images/Snapshoot4.png" class="placeholder mobi" alt="placeholder"></a>
+        </div>
+        <div class="descrpt">
+            <h3>Uber Navigation</h3>
+            <ul class="client">
+                <li class="canopy cli"><a href="#">Uber</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="counter"></li>
+                <li class="back cli"><a href="#">Lead Developer</a></li>
+                <li class="counter"><img src="images/Counter.jpg" alt="counter"></li>
+                <li class="dat cli"><a href="#">2018</a></li>   
+             </ul>
+            <p>A smart assistant to make driving more safe, 
+                efficient, and fun by unlocking your most expensive computer: your car.</p>
+             <ul class="langgy">
+                <li class="html lan"><a href="#">Html</a></li>
+                <li class="rubi lan"><a href="#">Rubi on rails</a></li>
+                <li class="css lan"><a href="#">CSS</a></li>
+                <li class="java lan"><a href="#">Javascript</a></li>
+             </ul>  
+        <div class="button">
+            <button class="buttn" type="button">See Project</button>
+        </div>
+        </div>
+       </div>
+       </div>
+    </section>
+    <section class="about-section">
+        <div class="about1">
+            <h4>About Myself</h4>
+            <p>
+                Hello I’m a software developer! I can help you build a product ,
+                 feature or website Look through some of my work and experience!
+                 If you like what you see and have a project you need coded,
+                  don’t hestiate to contact me.
+            </p>
+        <div class="connect texty connect-abt">
+            <h2>Lets Connect</h2>
+            <ul class="desc-social desk-abt">
+                <li><a href="#"><img src="images/twitter.jpg" class="twitter" alt="twitter"></a></li>
+                <li><a href="#"><img src="images/Linkedin.jpg" class="linkedin" alt="linkedIn"></a></li>
+                <li><a href="#"><img src="images/medium.jpg" class="medium" alt="medium"></a></li>
+                <li><a href="#"><img src="images/github.jpg" class="github" alt="github"></a></li>
+                <li><a href="#"><img src="images/angellist.jpg" class="angellist" alt="angellist"></a></li>
+                </ul>
+
+            <div class="button">
+                <button type="button" class="buttn buttn2">See Project</button>
             </div>
-        </section>
-        <section class="about-section">
-            <div class="about">
-                <div>
-                    <h6 class="aboutme">About <br>Myself</h6>
-                    <p class="softdev">
-                        Hello I’m a software developer! I can help you build a product , 
-                        feature or website Look through some of my work and experience! 
-                        If you like what you see and have a project you need coded, don’t hestiate to contact me.
-                    </p>
-                  </div>
-                  <h2 class="connect">
-                    LET'S CONNECT
-                </h2>
-                  <ul class="mediaIcons">
-                      <li class="twitter">
-                          <a href="#"><img src="images/twitter.png" alt="twitter icon"></a>
-                          </li>
-                      <li class="linkedIn">
-                          <a href="#"><img src="images/Linkedin.png" alt="LinkedIn icon"></a>
-                      </li>
-                      <li class="medium">
-                          <a href="#"><img src="images/medium.png" alt="Medium Icon"></a>
-                      </li>
-                      <li class="github">
-                          <a href="#"><img src="images/github.png" alt="Github Icon"></a>
-                      </li>
-                      <li class="angellist">
-                          <a href="#"><img src="images/angellist.png" alt="Angellist icon"></a>
-                      </li>
-                  </ul>
-                  <div class="button2">
-                    <button type="button" >Get my resume</button>
-                  </div>   
-              </div>
-              <div class="about2">
-                <ul class="la">
-                    <li class="langguage"><a href="#">Langguages</a></li>
-                    <li class="langnav"><a href="#"><img src="images/dropd.png" alt="Side navigation bar icon"></a></li>
-                </ul>
-                <ul class="langs">
-                   <li><a href="#"><img src="images/js.png" alt="javascript icon" class="jss"></a></li>
-                    <li><a href="#"><img src="images/htm.png" alt="html icon" class="ht"></a></li>
-                   <li><a href="#"><img src="images/cs.png" alt="CSS icon" class="csss"></a></li>
-                </ul>
-                <img src="images/sep.png" alt="line break">  
-                <ul class="abtskill">
-                    <li class="skill"><a href="#">Frameworks</a></li>
-                    <li class="skillNav"><a href="#"><img src="images/drp.png" alt="Side navigation bar icon"></a></li>
-                </ul>
-                <img src="images/sep.png" alt="line break">  
-                <ul class="abtframework">
-                    <li class="framework"><a href="#">Skills</a></li>
-                    <li class="framework-nav"><a href="#"><img src="images/drp.png" alt="Side navigation bar icon"></a>                  
-                </ul>                         
-              </div>                
-        </section>
-        <section class="contact-page">
-            <div class="contact-sec">    
-            <div>
-                <h6 class="contact-page-titel">Contact me</h6>
-                <p class="contactP">
-                    If you have an application you are interested in developing,
-                     a feature that you need built or a project that needs coding. 
-                     I’d love to help with it 
-                </p>
-              </div>
-            <form action="https://formspree.io/f/mbjqebza" class="contact-form" method="post">
-                <label for="fullname"></label>
-                <input maxlength="30" name="fullname" class="full-name" id="fullname" type="text" placeholder="Full name" required><br>
-                <label for="email"></label>
-                <input type="email" name="email" class="email" id="email" placeholder="Email" required><br>
-                <label for="comment"></label>
-                <textarea maxlength="500" name="comment" id="comment" cols="30" rows="10" placeholder="Write your message here" required></textarea><br>
-                <button type="submit" class="get-it-touch" value="Get it touch">Get it touch</button>
-            </form>
+        </div>
+        </div>
+        <div class="about2">
+            <div class="lang">
+            <div class="langabt">
+                <h5 class="abtlang"><a>Langguage</a></h5>
+                <a><img src="images/drpdn.jpg" class="drp" alt="#"></a>
             </div>
-        </section>
+            <div class="lang-icons">
+            <div class="langabth all">
+                <a><img src="images/js.jpg" class="lang-img" alt="#"></a>
+                <h5  class="lang22"><a>Javascript</a></h5>
+            </div><br>
+            <div class="langabth al">
+                <a><img src="images/html.jpg" class="lang-img" alt="#"></a>
+                <h5  class="lang22"><a>HTML</a></h5>
+            </div><br>
+            <div class="langabth all">
+                <a><img src="images/css.jpg" class="lang-img" alt="#"></a>
+                <h5 class="lang22"><a>CSS</a></h5>
+            </div><br>
+            </div>
+            <div class="langabt">
+                <h5 class="abtlang"><a>Frameworks</a></h5>
+                <a><img src="images/drp.jpg" class="drp" alt="#"></a>
+            </div>
+            <img src="images/Sep.jpg" class="sep" alt="">
+            <div class="langabt">
+                <h5 class="abtlang"><a>Skills</a></h5>
+                <a><img src="images/drp.jpg" class="drp" alt="#"></a>
+            </div>
+            <img src="images/Sep.jpg" class="sep" alt="#">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-page">
+        <div class="contact-sec">     
+        <div class="contdet">
+            <h6 class="contact-page-titel">Contact me</h6>
+            <p class="contactP">
+                If you have an application you are interested in developing,
+                 a feature that you need built or a project that needs coding. 
+                 I’d love to help with it 
+            </p>
+          </div>
+        <form action="https://formspree.io/f/mbjqebza" class="contact-form" method="post">
+            <label for="fullname"></label>
+            <input maxlength="30" name="fullname" class="full-name frm" id="fullname" type="text" placeholder="Full name" required><br>
+            <label for="email"></label>
+            <input type="email" name="email" class="email frm" id="email" placeholder="Email" required><br>
+            <label for="comment"></label>
+            <textarea maxlength="500" name="comment" id="comment" cols="30" rows="10" placeholder="Write your message here" required></textarea><br>                
+            <button type="submit" class="get-it-touch buttn" value="Get it touch">Get it touch</button>
+        </form>
+        </div>
+    </section>
 </body>
 </html>
