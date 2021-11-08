@@ -56,6 +56,10 @@
     display: none;
   }
 
+  .nav .fa-times {
+    display: none;
+  }
+
   .headline-section h1 {
     position: relative;
     margin-left: 25%;
