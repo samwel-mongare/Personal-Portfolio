@@ -27,6 +27,25 @@
   background: #2230d2;
 }
 
+.logo:hover {
+  animation-name: rotateAnimation;
+  animation-duration: 2s;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .buttn:disabled {
   color: #5e6c84;
   border: 1px solid #e5e5e5;
@@ -198,6 +217,7 @@
     width: 55px;
     height: 16px;
     color: #6b778c;
+    margin-right: 0.8rem;
   }
 
   .dat {
@@ -241,14 +261,23 @@
 
   .html {
     width: 3.3rem;
+    padding-top: 0.3rem;
+    color: #6070ff;
+    text-align: center;
   }
 
   .css {
     width: 2.8rem;
+    color: #6070ff;
+    padding-top: 0.3rem;
+    text-align: center;
   }
 
   .java {
     width: 5.6rem;
+    color: #6070ff;
+    padding-top: 0.3rem;
+    text-align: center;
   }
 
   .buttn {
@@ -260,7 +289,7 @@
     border-radius: 16px;
     background: #fff;
     color: #396df2;
-    width: 8rem;
+    width: 8.5rem;
     height: 3rem;
     letter-spacing: 0.03em;
     margin-top: 1.2rem;
@@ -342,10 +371,14 @@
     height: 4rem;
   }
 
-  .lang22 {
-    align-items: center;
+  .langabth h5 {
+    text-align: center;
     padding-left: 0.9rem;
-    padding-top: 0.9rem;
+    padding-top: 1.5rem;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
   }
 
   .sep {
@@ -365,10 +398,12 @@
     margin-top: 7.1rem;
     border: 1px solid #d0d9d4;
     border-radius: 0.7rem;
-    background-image: url(images/Contact\ me.jpg);
+    background-image: url(images/contactfrm.svg);
+    background-color: #6070ff;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 50%;
     border-top-left-radius: 5rem;
+    background-position: top right;
   }
 
   .contact-page-titel {
