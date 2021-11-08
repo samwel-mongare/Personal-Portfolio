@@ -7,7 +7,7 @@ hamburger.addEventListener('click', () => {
 
 nav.addEventListener('click', (event) => {
   if (nav.classList.contains('show')) {
-    if ( event.target.tagName === 'A' || event.target.tagName === 'I') {
+    if (event.target.tagName === 'A' || event.target.tagName === 'I') {
       nav.classList.remove('show');
     }
   }
