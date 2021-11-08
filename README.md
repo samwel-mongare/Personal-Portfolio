@@ -4,7 +4,7 @@
 
 > This project involves creating a basic mobile version portfolio skeleton which will be used in the development of a complete personal portfolio accessible both through phone and desktop.
 
-## Desktop Version screenshot
+## Mobile Version screenshot
 
 ![screenshot](./app_screenshot.png)
 
