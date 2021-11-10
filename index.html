@@ -25,15 +25,14 @@
             <div class="logo">
                 <a href="#">My Logo</a>
             </div>
-            <nav class="nav">
+            <i class="fa fa-bars hamburger" id="hamburger" aria-hidden="true"></i>
+            <nav class="nav" id="nav">
+                <i class="fas fa-times"></i>
                 <ul class="nav-list">
                 <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#contact-page">Contact</a></li>
                 </ul>
-            </nav>
-            <nav class="hamburger">
-                <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
             </nav>
         </header>
         <section class="headline-section">
@@ -286,7 +285,7 @@
        </div>
        </div>
     </section>
-    <section class="about-section">
+    <section class="about-section" id="about-section">
         <div class="about1">
             <h4>About Myself</h4>
             <p>
@@ -344,7 +343,7 @@
         </div>
     </section>
 
-    <section class="contact-page">
+    <section class="contact-page" id="contact-page">
         <div class="contact-sec">     
         <div class="contdet">
             <h6 class="contact-page-titel">Contact me</h6>
@@ -365,5 +364,6 @@
         </form>
         </div>
     </section>
+    <script src="menu.js"></script>
 </body>
 </html>
