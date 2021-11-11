@@ -1,0 +1,419 @@
+@media only screen and (max-width: 899px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+  }
+
+  #heading3 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    margin-top: 1rem;
+  }
+
+  #cano {
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #344563;
+  }
+
+  #backyy {
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #7a869a;
+  }
+
+  #year {
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #7a869a;
+  }
+
+  #parag {
+    width: 90%;
+    margin-left: 1.25rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    color: #344563;
+    margin-bottom: 1rem;
+  }
+
+  .project-img {
+    margin-left: 1.25rem;
+    width: 100%;
+    margin-top: 0.65rem;
+  }
+
+  #project-imgg {
+    width: 90%;
+  }
+
+  button {
+    padding: 0;
+    width: 6.5rem;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid #6070ff;
+    margin: 1rem 2rem;
+    display: flex;
+    align-content: center;
+  }
+
+  button p {
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    padding: 0;
+    margin-left: 0.4rem;
+    margin-top: 0.75rem;
+  }
+
+  button img {
+    margin: 0.85rem 0.45rem;
+  }
+
+  #myworky {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    text-align: center;
+    width: 14rem;
+    margin-left: 1.5rem;
+    align-content: center;
+  }
+
+  #myworky img {
+    padding-bottom: 0.3rem;
+  }
+
+  #det-card {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    border: 1px solid #d0d9d4;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 0.8rem;
+    background: #fff;
+  }
+
+  #details {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: center;
+    opacity: 0;
+    pointer-events: none;
+    backdrop-filter: blur(5px);
+    background: transparent;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  #details.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  #buttns {
+    display: flex;
+    border-top: 1px solid #ebecf0;
+    margin-top: 1rem;
+  }
+
+  #details-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 1.25rem;
+    height: 5rem;
+  }
+
+  #close-btn {
+    height: 1rem;
+    margin-top: 1.7rem;
+  }
+
+  #details-languages ul {
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 13rem;
+    text-align: center;
+    margin-left: 1.8rem;
+  }
+
+  #html {
+    width: 3.5rem;
+    height: 1.5rem;
+    align-items: center;
+    padding: 0.15rem 0;
+    background: #ebebff;
+    border-radius: 8px;
+    margin-right: 0.6rem;
+    padding-top: 0.45rem;
+    margin-left: -1rem;
+  }
+
+  #css {
+    width: 3.5rem;
+    height: 1.5rem;
+    align-items: center;
+    padding: 0.2rem 0;
+    background: #ebebff;
+    border-radius: 8px;
+    margin-right: 0.6rem;
+    padding-top: 0.45rem;
+  }
+
+  #java {
+    width: 5.6rem;
+    height: 1.5rem;
+    padding: 0.25rem 0;
+    align-items: center;
+    background: #ebebff;
+    border-radius: 8px;
+    padding-top: 0.45rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+  }
+
+  #heading3 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    margin-top: 1rem;
+  }
+
+  #cano {
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #344563;
+  }
+
+  #backyy {
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #7a869a;
+  }
+
+  #year {
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #7a869a;
+  }
+
+  #parag {
+    width: 90%;
+    margin-left: 1.25rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    color: #344563;
+    margin-bottom: 2rem;
+  }
+
+  .project-img {
+    margin-left: 1.25rem;
+    width: 100%;
+    height: 50%;
+    margin-top: 0.65rem;
+    align-content: center;
+  }
+
+  #project-imgg {
+    width: 90%;
+    height: 100%;
+    align-self: center;
+  }
+
+  button {
+    padding: 0;
+    width: 6.5rem;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid #6070ff;
+    margin: 1rem 0.22rem;
+    display: flex;
+    align-content: center;
+  }
+
+  button p {
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    padding: 0;
+    margin-left: 0.4rem;
+    margin-top: 0.75rem;
+  }
+
+  button img {
+    margin: 0.85rem 0.45rem;
+  }
+
+  #myworky {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    text-align: center;
+    width: 14rem;
+    margin-left: 1.5rem;
+    align-content: center;
+  }
+
+  #myworky img {
+    padding-bottom: 0.3rem;
+  }
+
+  #det-card {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    border: 1px solid #d0d9d4;
+    margin-left: 28%;
+    margin-right: 28%;
+    border-radius: 0.8rem;
+    background: #fff;
+  }
+
+  #details {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: center;
+    opacity: 0;
+    pointer-events: none;
+    backdrop-filter: blur(5px);
+    background: transparent;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  #details.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  #buttns {
+    display: flex;
+    border-top: 1px solid #ebecf0;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+
+  #details-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 1.25rem;
+    height: 5rem;
+    margin-top: 3rem;
+  }
+
+  #close-btn {
+    height: 1rem;
+    margin-top: 1.7rem;
+  }
+
+  #details-languages ul {
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 85%;
+    text-align: center;
+    margin-left: 1.8rem;
+  }
+
+  #html {
+    width: 3.5rem;
+    height: 1.5rem;
+    align-items: center;
+    padding: 0.15rem 0;
+    background: #ebebff;
+    border-radius: 8px;
+    margin-right: 0.6rem;
+    padding-top: 0.45rem;
+    margin-left: -1rem;
+  }
+
+  #css {
+    width: 3.5rem;
+    height: 1.5rem;
+    align-items: center;
+    padding: 0.2rem 0;
+    background: #ebebff;
+    border-radius: 8px;
+    margin-right: 0.6rem;
+    padding-top: 0.45rem;
+  }
+
+  #java {
+    width: 5.6rem;
+    height: 1.5rem;
+    padding: 0.25rem 0;
+    align-items: center;
+    background: #ebebff;
+    border-radius: 8px;
+    padding-top: 0.45rem;
+  }
+
+  #descrpty {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer {
+    width: 40%;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 900px) {
+  #buttns {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #ebecf0;
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+}
