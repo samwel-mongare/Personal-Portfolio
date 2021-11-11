@@ -37,6 +37,37 @@
   animation-duration: 2s;
 }
 
+.form-control.success input {
+  border: 3px solid;
+  border-color: #39ce39;
+}
+
+.form-control.error input {
+  border: 3px;
+ border-color: #e74c3c;
+}
+
+.form-control.error small {
+ visibility: visible;
+ color: #fff;
+}
+
+.form-control small {
+  visibility: hidden;
+}
+
+.form-control span {
+  visibility: hidden;
+}
+
+#dispComment {
+  visibility: hidden;
+}
+
+.bt small {
+  margin-bottom: 3rem;
+}
+
 @keyframes rotateAnimation {
   from {
     transform: rotate(0deg);
@@ -479,20 +510,26 @@
     margin-bottom: 3rem;
   }
 
-  .frm {
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-control {
     width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .frm {
+    width: 100%;
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 0.5rem;
     height: 3.5rem;
     align-items: center;
     padding: 12px;
-  }
-
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   #comment {
@@ -503,7 +540,7 @@
     font-size: 0.99rem;
     line-height: 1.5rem;
     padding: 12px;
-    width: 80%;
+    width: 100%;
     height: 10.63rem;
   }
 
@@ -515,8 +552,6 @@
     color: #6070ff;
     cursor: pointer;
     align-self: flex-start;
-    margin-left: 2.3rem;
-    margin-bottom: 1rem;
   }
 
   a {
