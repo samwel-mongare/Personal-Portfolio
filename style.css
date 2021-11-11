@@ -37,6 +37,14 @@
   animation-duration: 2s;
 }
 
+.form-control small {
+  visibility: hidden;
+}
+
+.bt small {
+  margin-bottom: 3rem;
+}
+
 .form-control.success input {
   border: 3px solid;
   border-color: #39ce39;
@@ -44,16 +52,12 @@
 
 .form-control.error input {
   border: 3px;
- border-color: #e74c3c;
+  border-color: #e74c3c;
 }
 
 .form-control.error small {
- visibility: visible;
- color: #fff;
-}
-
-.form-control small {
-  visibility: hidden;
+  visibility: visible;
+  color: #fff;
 }
 
 .form-control span {
@@ -62,10 +66,6 @@
 
 #dispComment {
   visibility: hidden;
-}
-
-.bt small {
-  margin-bottom: 3rem;
 }
 
 @keyframes rotateAnimation {
