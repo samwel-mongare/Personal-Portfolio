@@ -353,18 +353,30 @@
                  I’d love to help with it 
             </p>
           </div>
-        <form action="https://formspree.io/f/mbjqebza" class="contact-form" method="post">
-            <label for="fullname"></label>
-            <input maxlength="30" name="fullname" class="full-name frm" id="fullname" type="text" placeholder="Full name" required><br>
+        <form action="https://formspree.io/f/mbjqebza" class="contact-form" id="form" method="post" novalidate >
+            <div class="form-control">
+            <label for="username"></label>
+            <input maxlength="30" name="fullname" class="full-name frm" id="username" type="text" placeholder="Full name" required ><br>
+            <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
             <label for="email"></label>
             <input type="email" name="email" class="email frm" id="email" placeholder="Email" required><br>
+            <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
             <label for="comment"></label>
-            <textarea maxlength="500" name="comment" id="comment" cols="30" rows="10" placeholder="Write your message here" required></textarea><br>                
+            <textarea maxlength="500" name="comment" id="comment" cols="30" rows="10" placeholder="Write your message here" required></textarea><br>
+            <small>Error Message</small>
+            </div>
             <button type="submit" class="get-it-touch buttn" value="Get it touch">Get it touch</button>
         </form>
         </div>
     </section>
     <script src="menu.js"></script>
     <script src="details.js"></script>
+    <script src="validation.js"></script>
 </body>
 </html>

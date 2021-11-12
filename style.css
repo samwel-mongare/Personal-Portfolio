@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
 
 /* font-family: 'Poppins', sans-serif; */
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  padding: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +41,37 @@
 .logo:hover {
   animation-name: rotateAnimation;
   animation-duration: 2s;
+}
+
+.form-control small {
+  visibility: hidden;
+}
+
+.bt small {
+  margin-bottom: 3rem;
+}
+
+.form-control.success input {
+  border: 3px solid;
+  border-color: #39ce39;
+}
+
+.form-control.error input {
+  border: 3px;
+  border-color: #e74c3c;
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: #fff;
+}
+
+.form-control span {
+  visibility: hidden;
+}
+
+#dispComment {
+  visibility: hidden;
 }
 
 @keyframes rotateAnimation {
@@ -205,6 +242,7 @@
   .connect {
     position: relative;
     left: 1.5rem;
+    width: 80%;
   }
 
   .cards {
@@ -419,6 +457,9 @@
     text-align: center;
     padding-left: 0.9rem;
     padding-top: 1.5rem;
+  }
+
+  .lang22 {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -479,20 +520,26 @@
     margin-bottom: 3rem;
   }
 
-  .frm {
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-control {
     width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .frm {
+    width: 100%;
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 0.5rem;
     height: 3.5rem;
     align-items: center;
     padding: 12px;
-  }
-
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   #comment {
@@ -503,7 +550,7 @@
     font-size: 0.99rem;
     line-height: 1.5rem;
     padding: 12px;
-    width: 80%;
+    width: 100%;
     height: 10.63rem;
   }
 
@@ -515,8 +562,7 @@
     color: #6070ff;
     cursor: pointer;
     align-self: flex-start;
-    margin-left: 2.3rem;
-    margin-bottom: 1rem;
+    width: fit-content;
   }
 
   a {
