@@ -263,6 +263,7 @@
     margin: 1rem 0.22rem;
     display: flex;
     align-content: center;
+    cursor: pointer;
   }
 
   button p {

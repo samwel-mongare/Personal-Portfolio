@@ -412,9 +412,10 @@ html {
   }
 
   .buttn2 {
-    width: 10rem;
+    width: fit-content;
     height: 3rem;
     margin-bottom: 1rem;
+    white-space: nowrap;
   }
 
   .connect-abt {
