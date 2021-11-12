@@ -327,9 +327,10 @@
   }
 
   .buttn2 {
-    width: 10rem;
+    width: fit-content;
     height: 3rem;
     margin-bottom: 1rem;
+    white-space: nowrap;
   }
 
   .connect-abt {
@@ -347,6 +348,12 @@
   .langabt {
     display: flex;
     justify-content: space-between;
+    height: 2rem;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #344563;
   }
 
   .drp {
@@ -384,8 +391,7 @@
 
   .lang-img {
     align-items: center;
-    padding-left: 0.9rem;
-    padding-top: 0.9rem;
+    padding: 0.9rem;
   }
 
   .lang-icons {
@@ -477,5 +483,6 @@
     cursor: pointer;
     align-self: center;
     margin-bottom: 1rem;
+    width: fit-content;
   }
 }
