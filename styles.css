@@ -231,7 +231,7 @@
   }
 
   #parag {
-    width: 70%;
+    width: 80%;
     margin-left: 1.25rem;
     font-size: 0.9rem;
     line-height: 1.5rem;
@@ -343,7 +343,7 @@
     width: 90%;
     margin-left: 1.25rem;
     height: 5rem;
-    margin-top: 5%;
+    margin-top: 10%;
   }
 
   #close-btn {
