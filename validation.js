@@ -1,3 +1,28 @@
+function loadStoredData() {
+  const userData = JSON.parse(localStorage.getItem('formData'));
+
+  if (userData) {
+    const form = document.getElementById('form');
+    const formElements = [...form.elements];
+    formElements.forEach((element) => {
+      if (element.tagName !== 'BUTTON') {
+        element.value = userData[element.id] || '';
+      }
+    });
+  }
+}
+loadStoredData();
+
+const storeFormData = (inputID) => {
+  const formData = JSON.parse(localStorage.getItem('formData')) || {};
+  formData[inputID] = document.getElementById(inputID).value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+};
+const storedInputs = document.querySelectorAll('.details-save');
+storedInputs.forEach((input) => input.addEventListener('input', () => {
+  storeFormData(input.id);
+}));
+
 const form = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
