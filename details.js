@@ -104,21 +104,21 @@ img2.addEventListener('click', () => {
 });
 
 function displayGit() {
-  window.open('https://github.com/Mosams/Personal-Portfolio.git');
+  window.open('https://github.com/Mosams/Module-One-Capstone-Project.git');
 }
 
 function displaylive() {
-  window.open('https://mosams.github.io/Personal-Portfolio');
+  window.open('https://mosams.github.io/Module-One-Capstone-Project/');
 }
 
 const cardsDetail1 = [
   {
-    name: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    name: 'Bar in Motion',
+    description: 'The Bar in Motion is a project done in the first Microverse module milestone. I created the project as a reference to the halloween holiday function organized by the Bar in Motion Communuty. The project was able to communicate the fun events that were organized for the day and also worked as a marketing strategy for the company by displaying their previous events',
     canopy: 'CANOPY',
     back: 'Back End Dev',
-    year: '2015',
-    image: 'images/card1.jpg',
+    year: '2021',
+    image: 'images/bar1.png',
     tech1: 'html',
     tech2: 'css',
     tech3: 'javascript',
