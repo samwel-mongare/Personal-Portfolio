@@ -153,24 +153,9 @@
     height: 60vh;
   }
 
-  .mywork-section1 {
-    display: none;
-  }
-
-  .mywork-section2 {
-    align-content: center;
-    display: grid;
-  }
-
   .placeholder {
-    width: 200%;
+    width: 170%;
     height: 95%;
-  }
-
-  .placeholder2 {
-    height: 95%;
-    width: 85%;
-    margin-top: 0.8rem;
   }
 
   .cards:hover {
@@ -191,7 +176,7 @@
 
   .mobi {
     align-self: center;
-    width: 94%;
+    width: 64%;
     margin: 2%;
   }
 
@@ -202,6 +187,7 @@
 
   .descrpt {
     margin: 1rem;
+    width: 100rem;
   }
 
   .cards h3 {
