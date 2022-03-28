@@ -56,6 +56,11 @@
     display: none;
   }
 
+  .fa {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
   .nav .fa-times {
     display: none;
   }
