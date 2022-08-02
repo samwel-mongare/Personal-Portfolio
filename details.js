@@ -103,14 +103,6 @@ img2.addEventListener('click', () => {
   section.classList.remove('show');
 });
 
-function displayGit() {
-  window.open('https://github.com/Mosams/Module-One-Capstone-Project.git');
-}
-
-function displaylive() {
-  window.open('https://mosams.github.io/Module-One-Capstone-Project/');
-}
-
 const cardsDetail1 = [
   {
     name: 'Bar in Motion',
@@ -129,6 +121,8 @@ const cardsDetail1 = [
     counterTwo: 'images/Counter.jpg',
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
+    liveLink: 'https://mosams.github.io/Module-One-Capstone-Project/',
+    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git'
   },
 
   {
@@ -148,6 +142,8 @@ const cardsDetail1 = [
     counterTwo: 'images/Counter.jpg',
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
+    liveLink: 'https://mosams.github.io/Module-One-Capstone-Project/',
+    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git'
   },
   {
     name: 'Tonic',
@@ -166,6 +162,8 @@ const cardsDetail1 = [
     counterTwo: 'images/Counter.jpg',
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
+    liveLink: 'https://mosams.github.io/Module-One-Capstone-Project/',
+    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git'
   },
   {
     name: 'Multi-Post Stories',
@@ -184,101 +182,61 @@ const cardsDetail1 = [
     counterTwo: 'images/Counter.jpg',
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
-  },
+    liveLink: 'https://mosams.github.io/Module-One-Capstone-Project/',
+    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git'
+  }
 ];
 
-button1.addEventListener('click', displaylive);
-button2.addEventListener('click', displayGit);
+
+function displayGit() {
+  for(let liveGity of cardsDetail1) {
+    window.open(`${liveGity.liveGit}`);
+  }
+}
+
+function displaylive() {
+  for(let liveLinky of cardsDetail1) {
+    window.open(`${liveLinky.liveGit}`);
+  }
+}
+
+button1.addEventListener('click', (e) => {
+  console.log(e.target)
+});
+button2.addEventListener('click', (e) => {
+  console.log(e.target.parentElement.parentElement.firstChild)
+});
 
 function displayInfo() {
-  section.classList.add('show');
 
-  document.getElementById('heading3').innerHTML = cardsDetail1[0].name;
-  document.getElementById('close-btn').src = cardsDetail1[0].closBtn;
-  document.getElementById('project-imgg').src = cardsDetail1[0].image;
-  document.getElementById('parag').innerHTML = cardsDetail1[0].description;
-  document.getElementById('cano').innerHTML = cardsDetail1[0].canopy;
-  document.getElementById('counter1').src = cardsDetail1[0].counterOne;
-  document.getElementById('backyy').innerHTML = cardsDetail1[0].back;
-  document.getElementById('counter2').src = cardsDetail1[0].counterOne;
-  document.getElementById('year').innerHTML = cardsDetail1[0].year;
-  document.getElementById('html').innerHTML = cardsDetail1[0].tech1;
-  document.getElementById('css').innerHTML = cardsDetail1[0].tech2;
-  document.getElementById('java').innerHTML = cardsDetail1[0].tech3;
-  document.getElementById('live-txt').innerHTML = cardsDetail1[0].buttn1;
-  document.getElementById('git-txt').innerHTML = cardsDetail1[0].buttn2;
-  document.getElementById('live').src = cardsDetail1[0].live;
-  document.getElementById('git').src = cardsDetail1[0].gity;
-}
+  for(let cardDetailsInfo of cardsDetail1) {
+    section.classList.add('show');
 
-function displayInfo2() {
-  section.classList.add('show');
+    document.getElementById('heading3').innerHTML = cardDetailsInfo.name;
+    document.getElementById('close-btn').src = cardDetailsInfo.closBtn;
+    document.getElementById('project-imgg').src = cardDetailsInfo.image;
+    document.getElementById('parag').innerHTML = cardDetailsInfo.description;
+    document.getElementById('cano').innerHTML = cardDetailsInfo.canopy;
+    document.getElementById('counter1').src = cardDetailsInfo.counterOne;
+    document.getElementById('backyy').innerHTML = cardDetailsInfo.back;
+    document.getElementById('counter2').src = cardDetailsInfo.counterOne;
+    document.getElementById('year').innerHTML = cardDetailsInfo.year;
+    document.getElementById('html').innerHTML = cardDetailsInfo.tech1;
+    document.getElementById('css').innerHTML = cardDetailsInfo.tech2;
+    document.getElementById('java').innerHTML = cardDetailsInfo.tech3;
+    document.getElementById('live-txt').innerHTML = cardDetailsInfo.buttn1;
+    document.getElementById('git-txt').innerHTML = cardDetailsInfo.buttn2;
+    document.getElementById('live').src = cardDetailsInfo.live;
+    document.getElementById('git').src = cardDetailsInfo.gity;
+  }
 
-  document.getElementById('heading3').innerHTML = cardsDetail1[1].name;
-  document.getElementById('close-btn').src = cardsDetail1[1].closBtn;
-  document.getElementById('project-imgg').src = cardsDetail1[1].image;
-  document.getElementById('parag').innerHTML = cardsDetail1[1].description;
-  document.getElementById('cano').innerHTML = cardsDetail1[1].canopy;
-  document.getElementById('counter1').src = cardsDetail1[1].counterOne;
-  document.getElementById('backyy').innerHTML = cardsDetail1[1].back;
-  document.getElementById('counter2').src = cardsDetail1[1].counterOne;
-  document.getElementById('year').innerHTML = cardsDetail1[1].year;
-  document.getElementById('html').innerHTML = cardsDetail1[1].tech1;
-  document.getElementById('css').innerHTML = cardsDetail1[1].tech2;
-  document.getElementById('java').innerHTML = cardsDetail1[1].tech3;
-  document.getElementById('live-txt').innerHTML = cardsDetail1[1].buttn1;
-  document.getElementById('git-txt').innerHTML = cardsDetail1[1].buttn2;
-  document.getElementById('live').src = cardsDetail1[1].live;
-  document.getElementById('git').src = cardsDetail1[1].gity;
-}
-
-function displayInfo3() {
-  section.classList.add('show');
-
-  document.getElementById('heading3').innerHTML = cardsDetail1[2].name;
-  document.getElementById('close-btn').src = cardsDetail1[2].closBtn;
-  document.getElementById('project-imgg').src = cardsDetail1[2].image;
-  document.getElementById('parag').innerHTML = cardsDetail1[2].description;
-  document.getElementById('cano').innerHTML = cardsDetail1[2].canopy;
-  document.getElementById('counter1').src = cardsDetail1[2].counterOne;
-  document.getElementById('backyy').innerHTML = cardsDetail1[2].back;
-  document.getElementById('counter2').src = cardsDetail1[2].counterOne;
-  document.getElementById('year').innerHTML = cardsDetail1[2].year;
-  document.getElementById('html').innerHTML = cardsDetail1[2].tech1;
-  document.getElementById('css').innerHTML = cardsDetail1[2].tech2;
-  document.getElementById('java').innerHTML = cardsDetail1[2].tech3;
-  document.getElementById('live-txt').innerHTML = cardsDetail1[2].buttn1;
-  document.getElementById('git-txt').innerHTML = cardsDetail1[2].buttn2;
-  document.getElementById('live').src = cardsDetail1[2].live;
-  document.getElementById('git').src = cardsDetail1[2].gity;
-}
-
-function displayInfo4() {
-  section.classList.add('show');
-
-  document.getElementById('heading3').innerHTML = cardsDetail1[3].name;
-  document.getElementById('close-btn').src = cardsDetail1[3].closBtn;
-  document.getElementById('project-imgg').src = cardsDetail1[3].image;
-  document.getElementById('parag').innerHTML = cardsDetail1[3].description;
-  document.getElementById('cano').innerHTML = cardsDetail1[3].canopy;
-  document.getElementById('counter1').src = cardsDetail1[3].counterOne;
-  document.getElementById('backyy').innerHTML = cardsDetail1[3].back;
-  document.getElementById('counter2').src = cardsDetail1[3].counterOne;
-  document.getElementById('year').innerHTML = cardsDetail1[3].year;
-  document.getElementById('html').innerHTML = cardsDetail1[3].tech1;
-  document.getElementById('css').innerHTML = cardsDetail1[3].tech2;
-  document.getElementById('java').innerHTML = cardsDetail1[3].tech3;
-  document.getElementById('live-txt').innerHTML = cardsDetail1[3].buttn1;
-  document.getElementById('git-txt').innerHTML = cardsDetail1[3].buttn2;
-  document.getElementById('live').src = cardsDetail1[3].live;
-  document.getElementById('git').src = cardsDetail1[3].gity;
-}
+  }
 
 open.addEventListener('click', displayInfo);
-open2.addEventListener('click', displayInfo2);
-open3.addEventListener('click', displayInfo3);
-open4.addEventListener('click', displayInfo4);
+open2.addEventListener('click', displayInfo);
+open3.addEventListener('click', displayInfo);
+open4.addEventListener('click', displayInfo);
 open5.addEventListener('click', displayInfo);
-open6.addEventListener('click', displayInfo2);
-open7.addEventListener('click', displayInfo3);
-open8.addEventListener('click', displayInfo4);
+open6.addEventListener('click', displayInfo);
+open7.addEventListener('click', displayInfo);
+open8.addEventListener('click', displayInfo);
