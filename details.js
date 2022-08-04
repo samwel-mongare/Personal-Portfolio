@@ -97,25 +97,6 @@ img2.addEventListener('click', () => {
   section.classList.remove('show');
 });
 
-function displayGit() {
-  for(let liveGity of cardsDetail1) {
-    window.open(`${liveGity.liveGit}`);
-  }
-}
-
-function displaylive() {
-  for(let liveLinky of cardsDetail1) {
-    window.open(`${liveLinky.liveGit}`);
-  }
-}
-
-button1.addEventListener('click', (e) => {
-  console.log(e.target)
-});
-button2.addEventListener('click', (e) => {
-  console.log(e.target.parentElement.parentElement.firstChild)
-});
-
 function displayInfo() {
   open.forEach(element => {
     element.addEventListener('click', (e) => {
@@ -141,6 +122,15 @@ function displayInfo() {
           document.getElementById('git-txt').innerHTML = cardsDetail1[i].buttn2;
           document.getElementById('live').src = cardsDetail1[i].live;
           document.getElementById('git').src = cardsDetail1[i].gity;
+
+          
+          button1.addEventListener('click', () => {
+            console.log("I am clicked")
+            window.open(`${cardsDetail1[i].liveLink}`);
+          });
+          button2.addEventListener('click', () => {
+            window.open(`${cardsDetail1[i].liveGit}`);
+          });
         }
       };
     });
