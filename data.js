@@ -37,8 +37,8 @@ const cardsDetail1 = [
     counterTwo: 'images/Counter.jpg',
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
-    liveLink: 'https://mosams.github.io/Module-One-Capstone-Project/',
-    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git'
+    liveLink: 'https://mysterious-hollows-81066.herokuapp.com/',
+    liveGit: 'https://github.com/Mosams/Budget_Hippo.git'
   },
   {
     name: 'Tonic',

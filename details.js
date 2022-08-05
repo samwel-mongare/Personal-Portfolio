@@ -125,7 +125,6 @@ function displayInfo() {
 
           
           button1.addEventListener('click', () => {
-            console.log("I am clicked")
             window.open(`${cardsDetail1[i].liveLink}`);
           });
           button2.addEventListener('click', () => {
