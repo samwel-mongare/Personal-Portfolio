@@ -1,5 +1,7 @@
+import cardsDetail1 from './data.js';
+
 const body = document.querySelector('body');
-const open = document.querySelectorAll('.open')
+const open = document.querySelectorAll('.open');
 
 const section = document.createElement('section');
 const h3 = document.createElement('h3');
@@ -98,12 +100,13 @@ img2.addEventListener('click', () => {
 });
 
 function displayInfo() {
-  open.forEach(element => {
+  open.forEach((element) => {
     element.addEventListener('click', (e) => {
-      cardHeading = e.target.parentElement.parentElement.firstChild.nextElementSibling.textContent;
+      const firstSecOfHeading = e.target.parentElement.parentElement;
+      const cardHeading = firstSecOfHeading.firstChild.nextElementSibling.textContent;
 
-      for(let i = 0; i < cardsDetail1.length; i++) {
-        if(cardHeading === cardsDetail1[i].name) {
+      for (let i = 0; i < cardsDetail1.length; i += 1) {
+        if (cardHeading === cardsDetail1[i].name) {
           section.classList.add('show');
 
           document.getElementById('heading3').innerHTML = cardsDetail1[i].name;
@@ -123,7 +126,6 @@ function displayInfo() {
           document.getElementById('live').src = cardsDetail1[i].live;
           document.getElementById('git').src = cardsDetail1[i].gity;
 
-          
           button1.addEventListener('click', () => {
             window.open(`${cardsDetail1[i].liveLink}`);
           });
@@ -131,9 +133,9 @@ function displayInfo() {
             window.open(`${cardsDetail1[i].liveGit}`);
           });
         }
-      };
+      }
     });
   });
 }
 
-displayInfo()
+displayInfo();

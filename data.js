@@ -17,7 +17,7 @@ const cardsDetail1 = [
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
     liveLink: 'https://mosams.github.io/Module-One-Capstone-Project/',
-    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git'
+    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git',
   },
 
   {
@@ -38,7 +38,7 @@ const cardsDetail1 = [
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
     liveLink: 'https://mysterious-hollows-81066.herokuapp.com/',
-    liveGit: 'https://github.com/Mosams/Budget_Hippo.git'
+    liveGit: 'https://github.com/Mosams/Budget_Hippo.git',
   },
   {
     name: 'Tonic',
@@ -58,7 +58,7 @@ const cardsDetail1 = [
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
     liveLink: 'https://mosams.github.io/Module-One-Capstone-Project/',
-    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git'
+    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git',
   },
   {
     name: 'Multi-Post Stories',
@@ -78,6 +78,8 @@ const cardsDetail1 = [
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
     liveLink: 'https://mosams.github.io/Module-One-Capstone-Project/',
-    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git'
-  }
+    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git',
+  },
 ];
+
+export default cardsDetail1;
