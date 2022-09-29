@@ -1,12 +1,6 @@
 const body = document.querySelector('body');
-const open = document.getElementById('open');
-const open2 = document.getElementById('open2');
-const open3 = document.getElementById('open3');
-const open4 = document.getElementById('open4');
-const open5 = document.getElementById('open5');
-const open6 = document.getElementById('open6');
-const open7 = document.getElementById('open7');
-const open8 = document.getElementById('open8');
+const open = document.querySelectorAll('.open');
+
 const section = document.createElement('section');
 const h3 = document.createElement('h3');
 const p = document.createElement('p');
@@ -103,14 +97,6 @@ img2.addEventListener('click', () => {
   section.classList.remove('show');
 });
 
-function displayGit() {
-  window.open('https://github.com/Mosams/Module-One-Capstone-Project.git');
-}
-
-function displaylive() {
-  window.open('https://mosams.github.io/Module-One-Capstone-Project/');
-}
-
 const cardsDetail1 = [
   {
     name: 'Bar in Motion',
@@ -129,6 +115,8 @@ const cardsDetail1 = [
     counterTwo: 'images/Counter.jpg',
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
+    liveLink: 'https://mosams.github.io/Module-One-Capstone-Project/',
+    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git',
   },
 
   {
@@ -148,6 +136,8 @@ const cardsDetail1 = [
     counterTwo: 'images/Counter.jpg',
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
+    liveLink: 'https://mysterious-hollows-81066.herokuapp.com/',
+    liveGit: 'https://github.com/Mosams/Budget_Hippo.git',
   },
   {
     name: 'Tonic',
@@ -166,6 +156,8 @@ const cardsDetail1 = [
     counterTwo: 'images/Counter.jpg',
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
+    liveLink: 'https://mosams.github.io/Module-One-Capstone-Project/',
+    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git',
   },
   {
     name: 'Multi-Post Stories',
@@ -184,101 +176,48 @@ const cardsDetail1 = [
     counterTwo: 'images/Counter.jpg',
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
+    liveLink: 'https://mosams.github.io/Module-One-Capstone-Project/',
+    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git',
   },
 ];
 
-button1.addEventListener('click', displaylive);
-button2.addEventListener('click', displayGit);
-
 function displayInfo() {
-  section.classList.add('show');
+  open.forEach((element) => {
+    element.addEventListener('click', (e) => {
+      const firstSecOfHeading = e.target.parentElement.parentElement;
+      const cardHeading = firstSecOfHeading.firstChild.nextElementSibling.textContent;
 
-  document.getElementById('heading3').innerHTML = cardsDetail1[0].name;
-  document.getElementById('close-btn').src = cardsDetail1[0].closBtn;
-  document.getElementById('project-imgg').src = cardsDetail1[0].image;
-  document.getElementById('parag').innerHTML = cardsDetail1[0].description;
-  document.getElementById('cano').innerHTML = cardsDetail1[0].canopy;
-  document.getElementById('counter1').src = cardsDetail1[0].counterOne;
-  document.getElementById('backyy').innerHTML = cardsDetail1[0].back;
-  document.getElementById('counter2').src = cardsDetail1[0].counterOne;
-  document.getElementById('year').innerHTML = cardsDetail1[0].year;
-  document.getElementById('html').innerHTML = cardsDetail1[0].tech1;
-  document.getElementById('css').innerHTML = cardsDetail1[0].tech2;
-  document.getElementById('java').innerHTML = cardsDetail1[0].tech3;
-  document.getElementById('live-txt').innerHTML = cardsDetail1[0].buttn1;
-  document.getElementById('git-txt').innerHTML = cardsDetail1[0].buttn2;
-  document.getElementById('live').src = cardsDetail1[0].live;
-  document.getElementById('git').src = cardsDetail1[0].gity;
+      for (let i = 0; i < cardsDetail1.length; i += 1) {
+        if (cardHeading === cardsDetail1[i].name) {
+          section.classList.add('show');
+
+          document.getElementById('heading3').innerHTML = cardsDetail1[i].name;
+          document.getElementById('close-btn').src = cardsDetail1[i].closBtn;
+          document.getElementById('project-imgg').src = cardsDetail1[i].image;
+          document.getElementById('parag').innerHTML = cardsDetail1[i].description;
+          document.getElementById('cano').innerHTML = cardsDetail1[i].canopy;
+          document.getElementById('counter1').src = cardsDetail1[i].counterOne;
+          document.getElementById('backyy').innerHTML = cardsDetail1[i].back;
+          document.getElementById('counter2').src = cardsDetail1[i].counterOne;
+          document.getElementById('year').innerHTML = cardsDetail1[i].year;
+          document.getElementById('html').innerHTML = cardsDetail1[i].tech1;
+          document.getElementById('css').innerHTML = cardsDetail1[i].tech2;
+          document.getElementById('java').innerHTML = cardsDetail1[i].tech3;
+          document.getElementById('live-txt').innerHTML = cardsDetail1[i].buttn1;
+          document.getElementById('git-txt').innerHTML = cardsDetail1[i].buttn2;
+          document.getElementById('live').src = cardsDetail1[i].live;
+          document.getElementById('git').src = cardsDetail1[i].gity;
+
+          button1.addEventListener('click', () => {
+            window.open(`${cardsDetail1[i].liveLink}`);
+          });
+          button2.addEventListener('click', () => {
+            window.open(`${cardsDetail1[i].liveGit}`);
+          });
+        }
+      }
+    });
+  });
 }
 
-function displayInfo2() {
-  section.classList.add('show');
-
-  document.getElementById('heading3').innerHTML = cardsDetail1[1].name;
-  document.getElementById('close-btn').src = cardsDetail1[1].closBtn;
-  document.getElementById('project-imgg').src = cardsDetail1[1].image;
-  document.getElementById('parag').innerHTML = cardsDetail1[1].description;
-  document.getElementById('cano').innerHTML = cardsDetail1[1].canopy;
-  document.getElementById('counter1').src = cardsDetail1[1].counterOne;
-  document.getElementById('backyy').innerHTML = cardsDetail1[1].back;
-  document.getElementById('counter2').src = cardsDetail1[1].counterOne;
-  document.getElementById('year').innerHTML = cardsDetail1[1].year;
-  document.getElementById('html').innerHTML = cardsDetail1[1].tech1;
-  document.getElementById('css').innerHTML = cardsDetail1[1].tech2;
-  document.getElementById('java').innerHTML = cardsDetail1[1].tech3;
-  document.getElementById('live-txt').innerHTML = cardsDetail1[1].buttn1;
-  document.getElementById('git-txt').innerHTML = cardsDetail1[1].buttn2;
-  document.getElementById('live').src = cardsDetail1[1].live;
-  document.getElementById('git').src = cardsDetail1[1].gity;
-}
-
-function displayInfo3() {
-  section.classList.add('show');
-
-  document.getElementById('heading3').innerHTML = cardsDetail1[2].name;
-  document.getElementById('close-btn').src = cardsDetail1[2].closBtn;
-  document.getElementById('project-imgg').src = cardsDetail1[2].image;
-  document.getElementById('parag').innerHTML = cardsDetail1[2].description;
-  document.getElementById('cano').innerHTML = cardsDetail1[2].canopy;
-  document.getElementById('counter1').src = cardsDetail1[2].counterOne;
-  document.getElementById('backyy').innerHTML = cardsDetail1[2].back;
-  document.getElementById('counter2').src = cardsDetail1[2].counterOne;
-  document.getElementById('year').innerHTML = cardsDetail1[2].year;
-  document.getElementById('html').innerHTML = cardsDetail1[2].tech1;
-  document.getElementById('css').innerHTML = cardsDetail1[2].tech2;
-  document.getElementById('java').innerHTML = cardsDetail1[2].tech3;
-  document.getElementById('live-txt').innerHTML = cardsDetail1[2].buttn1;
-  document.getElementById('git-txt').innerHTML = cardsDetail1[2].buttn2;
-  document.getElementById('live').src = cardsDetail1[2].live;
-  document.getElementById('git').src = cardsDetail1[2].gity;
-}
-
-function displayInfo4() {
-  section.classList.add('show');
-
-  document.getElementById('heading3').innerHTML = cardsDetail1[3].name;
-  document.getElementById('close-btn').src = cardsDetail1[3].closBtn;
-  document.getElementById('project-imgg').src = cardsDetail1[3].image;
-  document.getElementById('parag').innerHTML = cardsDetail1[3].description;
-  document.getElementById('cano').innerHTML = cardsDetail1[3].canopy;
-  document.getElementById('counter1').src = cardsDetail1[3].counterOne;
-  document.getElementById('backyy').innerHTML = cardsDetail1[3].back;
-  document.getElementById('counter2').src = cardsDetail1[3].counterOne;
-  document.getElementById('year').innerHTML = cardsDetail1[3].year;
-  document.getElementById('html').innerHTML = cardsDetail1[3].tech1;
-  document.getElementById('css').innerHTML = cardsDetail1[3].tech2;
-  document.getElementById('java').innerHTML = cardsDetail1[3].tech3;
-  document.getElementById('live-txt').innerHTML = cardsDetail1[3].buttn1;
-  document.getElementById('git-txt').innerHTML = cardsDetail1[3].buttn2;
-  document.getElementById('live').src = cardsDetail1[3].live;
-  document.getElementById('git').src = cardsDetail1[3].gity;
-}
-
-open.addEventListener('click', displayInfo);
-open2.addEventListener('click', displayInfo2);
-open3.addEventListener('click', displayInfo3);
-open4.addEventListener('click', displayInfo4);
-open5.addEventListener('click', displayInfo);
-open6.addEventListener('click', displayInfo2);
-open7.addEventListener('click', displayInfo3);
-open8.addEventListener('click', displayInfo4);
+displayInfo();
