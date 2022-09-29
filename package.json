@@ -2,7 +2,7 @@
   "name": "Personal-Portfolio",
   "version": "1.0.0",
   "description": "> This project involves creating a basic mobile version portfolio skeleton which will be used in the development of a complete personal portfolio accessible both through phone and desktop.",
-  "main": "details.js",
+  "main": "menu.js",
   "type": "module",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
