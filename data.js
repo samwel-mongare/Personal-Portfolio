@@ -46,7 +46,7 @@ const cardsDetail1 = [
     canopy: 'Front End',
     back: 'Back End',
     year: '2021',
-    image: 'images/card3.jpg',
+    image: 'images/Yu-Gi-Oh.png',
     tech1: 'html/css',
     tech2: 'WEBPACK',
     tech3: 'javascript',
