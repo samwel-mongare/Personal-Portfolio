@@ -64,8 +64,8 @@ const cardsDetail1 = [
     counterTwo: 'images/Counter.jpg',
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
-    liveLink: 'https://mosams.github.io/Module-One-Capstone-Project/',
-    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git',
+    liveLink: 'https://mosams.github.io/Yu-Gi-Oh_Cards_App/dist/',
+    liveGit: 'https://github.com/Mosams/Yu-Gi-Oh_Cards_App.git',
   },
   {
     name: 'Multi-Post Stories',
