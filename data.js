@@ -8,7 +8,7 @@ const cardsDetail1 = [
     image: 'images/bar1.png',
     tech1: 'html',
     tech2: 'css',
-    tech3: 'javascript',
+    tech3: 'JavaScript',
     closBtn: 'images/close.png',
     buttn1: 'See live',
     buttn2: 'See Source',
@@ -31,7 +31,7 @@ const cardsDetail1 = [
     image: 'images/spacetravelerspic2.png',
     tech1: 'html',
     tech2: 'css',
-    tech3: 'javascript',
+    tech3: 'JavaScript',
     closBtn: 'images/close.jpg',
     buttn1: 'See live',
     buttn2: 'See Source',
@@ -56,7 +56,7 @@ const cardsDetail1 = [
     image: 'images/Yu-Gi-Oh.png',
     tech1: 'html/css',
     tech2: 'WEBPACK',
-    tech3: 'javascript',
+    tech3: 'JavaScript',
     closBtn: 'images/close.jpg',
     buttn1: 'See live',
     buttn2: 'See Source',
@@ -68,15 +68,20 @@ const cardsDetail1 = [
     liveGit: 'https://github.com/Mosams/Yu-Gi-Oh_Cards_App.git',
   },
   {
-    name: 'Multi-Post Stories',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    canopy: 'CANOPY',
-    back: 'Back End Dev',
-    year: '2015',
+    name: 'football_fan_companion',
+    description: `Football Fan Companion is an applications that presents the user with different
+     leagues on the homepage where he/she/they can choose a league to view its team's data.
+      The app was developed from a football api which presents team data filtered from a given league
+       and the general league table that is generated from the data. I felt that the project would be 
+       a good addition to the football world given I am a big fan of the sport and I am always in need
+        of an updates on the progress of the leagues I am interested in.`,
+    canopy: 'API Dev',
+    back: 'Front End Dev',
+    year: '2022',
     image: 'images/card4.jpg',
-    tech1: 'html',
-    tech2: 'css',
-    tech3: 'javascript',
+    tech1: 'React',
+    tech2: 'TAILWIND',
+    tech3: 'JavaScript',
     closBtn: 'images/close.jpg',
     buttn1: 'See live',
     buttn2: 'See Source',
@@ -84,8 +89,8 @@ const cardsDetail1 = [
     counterTwo: 'images/Counter.jpg',
     live: 'images/live.jpg',
     gity: 'images/gitty.jpg',
-    liveLink: 'https://mosams.github.io/Module-One-Capstone-Project/',
-    liveGit: 'https://github.com/Mosams/Module-One-Capstone-Project.git',
+    liveLink: 'https://football-fan-companion.netlify.app/',
+    liveGit: 'https://github.com/Mosams/football_fan_companion.git',
   },
 ];
 
