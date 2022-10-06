@@ -56,11 +56,6 @@
     display: none;
   }
 
-  .fa {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-  }
-
   .nav .fa-times {
     display: none;
   }
@@ -151,23 +146,45 @@
     width: 65%;
     background: #fff;
     height: 60vh;
+    transition: transform 0.25s;
+  }
+
+  .mywork-section1 {
+    display: none;
+  }
+
+  .mywork-section2 {
+    align-content: center;
+    display: grid;
   }
 
   .placeholder {
-    width: 170%;
+    width: 120%;
     height: 95%;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .placeholder2 {
+    height: 95%;
+    width: 80%;
+    margin-top: 0.8rem;
   }
 
   .cards:hover {
+    transform: scale(1.01);
     border: 2px solid #a7aeff;
   }
 
-  .card2 {
+  .cardReverse {
     flex-direction: row-reverse;
   }
 
-  .card4 {
-    flex-direction: row-reverse;
+  .cardReverse .placeholder {
+    width: 90%;
+    padding: 0;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
   }
 
   .mydet {
@@ -176,8 +193,10 @@
 
   .mobi {
     align-self: center;
-    width: 64%;
-    margin: 2%;
+    width: 84%;
+    margin: 0.8rem;
+    overflow: hidden;
+    transition: transform 0.25s;
   }
 
   .mobi:hover {
@@ -187,7 +206,6 @@
 
   .descrpt {
     margin: 1rem;
-    width: 100rem;
   }
 
   .cards h3 {
