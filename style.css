@@ -255,6 +255,15 @@ html {
     border-radius: 0.8rem;
   }
 
+  .mywork-section2 {
+    display: none;
+  }
+
+  .mywork-section1 {
+    align-content: center;
+    display: grid;
+  }
+
   .mydet {
     padding-top: 7.142rem;
   }
