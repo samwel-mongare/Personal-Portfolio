@@ -78,7 +78,7 @@ const cardsDetail1 = [
     canopy: 'API Dev',
     back: 'Front End Dev',
     year: '2022',
-    image: 'images/card4.jpg',
+    image: 'images/fan-companion-detail.png',
     tech1: 'React',
     tech2: 'TAILWIND',
     tech3: 'JavaScript',
