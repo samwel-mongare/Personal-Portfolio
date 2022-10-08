@@ -15,7 +15,7 @@ function displayInfo() {
       for (let i = 0; i < cardsDetail1.length; i += 1) {
         if (cardHeading === cardsDetail1[i].name) {
           section.classList.add('show');
-          
+
           section.innerHTML = `
              <div id="det-card">
               <div id="details-heading">
@@ -59,15 +59,15 @@ function displayInfo() {
                 </div>
               </div>
             </div>
-          `
+          `;
           section.addEventListener('click', (e) => {
-            if(e.target.id === "close-btn") {
+            if (e.target.id === 'close-btn') {
               section.classList.remove('show');
             }
-            if(e.target.id === "details-buttn" || e.target.id === "live-txt" || e.target.id === "live") {
+            if (e.target.id === 'details-buttn' || e.target.id === 'live-txt' || e.target.id === 'live') {
               window.open(`${cardsDetail1[i].liveLink}`);
             }
-            if(e.target.id === "details-buttn2" || e.target.id === "git-txt" || e.target.id === "git") {
+            if (e.target.id === 'details-buttn2' || e.target.id === 'git-txt' || e.target.id === 'git') {
               window.open(`${cardsDetail1[i].liveGit}`);
             }
           });
