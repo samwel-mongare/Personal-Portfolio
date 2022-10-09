@@ -170,6 +170,10 @@
     margin-top: 0.8rem;
   }
 
+  /* .card4 .descrpt {
+    width: 50%;
+  } */
+
   .cards:hover {
     transform: scale(1.01);
     border: 2px solid #a7aeff;
@@ -205,6 +209,8 @@
 
   .descrpt {
     margin: 1rem;
+    padding: 0;
+    width: 70%;
   }
 
   .cards h3 {
