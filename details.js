@@ -1,4 +1,4 @@
-const cardsDetail1 = require('./data.js');
+import cardsDetail1 from './data.js';
 
 const body = document.querySelector('body');
 const open = document.querySelectorAll('.open');
