@@ -75,5 +75,4 @@ function displayInfo() {
     });
   });
 }
-
 displayInfo();
