@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
 
-/* font-family: 'Poppins', sans-serif; */
 @media only screen and (min-width: 993px) {
   * {
     margin: 0;
@@ -146,6 +145,7 @@
     width: 65%;
     background: #fff;
     height: 60vh;
+    transition: transform 0.25s;
   }
 
   .mywork-section1 {
@@ -158,26 +158,32 @@
   }
 
   .placeholder {
-    width: 200%;
+    width: 120%;
     height: 95%;
+    padding: 0;
+    overflow: hidden;
   }
 
   .placeholder2 {
     height: 95%;
-    width: 85%;
+    width: 80%;
     margin-top: 0.8rem;
   }
 
   .cards:hover {
+    transform: scale(1.01);
     border: 2px solid #a7aeff;
   }
 
-  .card2 {
+  .cardReverse {
     flex-direction: row-reverse;
   }
 
-  .card4 {
-    flex-direction: row-reverse;
+  .cardReverse .placeholder {
+    width: 90%;
+    padding: 0;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
   }
 
   .mydet {
@@ -186,8 +192,10 @@
 
   .mobi {
     align-self: center;
-    width: 94%;
-    margin: 2%;
+    width: 84%;
+    margin: 0.8rem;
+    overflow: hidden;
+    transition: transform 0.25s;
   }
 
   .mobi:hover {
