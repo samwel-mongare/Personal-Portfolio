@@ -15,7 +15,6 @@ function displayInfo() {
       for (let i = 0; i < cardsDetail1.length; i += 1) {
         if (cardHeading === cardsDetail1[i].name) {
           section.classList.add('show');
-
           section.innerHTML = `
              <div id="det-card">
               <div id="details-heading">
