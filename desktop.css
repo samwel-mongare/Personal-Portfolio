@@ -170,6 +170,10 @@
     margin-top: 0.8rem;
   }
 
+  /* .card4 .descrpt {
+    width: 50%;
+  } */
+
   .cards:hover {
     transform: scale(1.01);
     border: 2px solid #a7aeff;
@@ -205,6 +209,8 @@
 
   .descrpt {
     margin: 1rem;
+    padding: 0;
+    width: 70%;
   }
 
   .cards h3 {
@@ -257,26 +263,26 @@
   .lan {
     background: #ebebff;
     border-radius: 0.5rem;
-    height: 1.5rem;
+    height: 2rem;
     font-weight: 500;
     font-size: 0.9rem;
     line-height: 1rem;
-    padding-top: 0.3rem;
+    padding: 0.5rem;
     color: #6070ff;
   }
 
   .html {
-    width: 3.3rem;
+    width: auto;
     text-align: center;
   }
 
   .css {
-    width: 2.8rem;
+    width: auto;
     text-align: center;
   }
 
   .java {
-    width: 5.6rem;
+    width: auto;
     text-align: center;
   }
 
